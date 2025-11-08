@@ -7,3 +7,4 @@
 2025-11-08 06:40:15.059 [info] [127.0.0.1][4b273326][ManagementConnection] New connection established.
 2025-11-08 06:40:16.109 [info] [127.0.0.1][5405d0e4][ExtensionHostConnection] New connection established.
 2025-11-08 06:40:16.410 [info] [127.0.0.1][5405d0e4][ExtensionHostConnection] <610> Launched Extension Host Process.
+2025-11-08 06:45:16.483 [warning] [File Watcher (node.js)] Watcher shutdown because watched path got deleted
