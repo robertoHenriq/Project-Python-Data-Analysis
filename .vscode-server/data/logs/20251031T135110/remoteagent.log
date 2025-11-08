@@ -1,0 +1,19 @@
+2025-10-31 13:51:10.410 [info] 
+
+
+
+
+2025-10-31 13:51:10.457 [info] Extension host agent started.
+2025-10-31 13:51:11.046 [info] Deleted marked for removal extension from disk github.copilot-chat /root/.vscode-server/extensions/github.copilot-chat-0.32.3
+2025-10-31 13:51:11.051 [info] [127.0.0.1][66a03806][ManagementConnection] New connection established.
+2025-10-31 13:51:11.560 [info] [127.0.0.1][9ff71d6e][ExtensionHostConnection] New connection established.
+2025-10-31 13:51:11.674 [info] [127.0.0.1][9ff71d6e][ExtensionHostConnection] <593> Launched Extension Host Process.
+2025-10-31 14:58:35.434 [error] Error: read ECONNRESET
+    at TCP.onStreamRead (node:internal/stream_base_commons:216:20)
+2025-10-31 14:58:35.550 [info] [127.0.0.1][66a03806][ManagementConnection] The client has disconnected, will wait for reconnection 3h before disposing...
+2025-10-31 15:53:02.578 [info] [127.0.0.1][66a03806][ManagementConnection] Another client has connected, will shorten the wait for reconnection 5m before disposing...
+2025-10-31 15:53:02.696 [info] [127.0.0.1][9ff71d6e][ExtensionHostConnection] The client has reconnected.
+2025-10-31 15:53:05.836 [info] [127.0.0.1][66a03806][ManagementConnection] The client has reconnected.
+2025-10-31 17:48:26.506 [info] [127.0.0.1][66a03806][ManagementConnection] The client has reconnected.
+2025-10-31 17:48:28.364 [info] [127.0.0.1][9ff71d6e][ExtensionHostConnection] The client has reconnected.
+2025-11-01 02:00:31.763 [info] [127.0.0.1][66a03806][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.

@@ -1,0 +1,17 @@
+Visual Studio Code (1.105.1, wsl, desktop)
+Jupyter Extension Version: 2025.9.1.
+Python Extension Version: 2025.16.0.
+Python Environment Extension Version: 1.10.0.
+Pylance Extension Version: 2025.9.1.
+Platform: linux (x64).
+Home = /root
+Temp Storage folder ~/.vscode-server/data/User/globalStorage/ms-toolsai.jupyter/version-2025.9.1
+Workspace folder ~/Documents/dataPipeline
+07:53:12.777 [info] Starting Kernel (Python Path: ~/Documents/dataPipeline/venv/bin/python, Venv, 3.10.12) for '~/Documents/dataPipeline/notebooks/exploracao.ipynb' (disableUI=true)
+07:53:14.812 [info] Process Execution: ~/Documents/dataPipeline/venv/bin/python -m pip list
+07:53:14.828 [info] Process Execution: ~/Documents/dataPipeline/venv/bin/python -c "import ipykernel; print(ipykernel.__version__); print("5dc3a68c-e34e-4080-9c3e-2a532b2ccb4d"); print(ipykernel.__file__)"
+07:53:14.844 [info] Process Execution: ~/Documents/dataPipeline/venv/bin/python -m ipykernel_launcher --f=/run/user/0/jupyter/runtime/kernel-v39daea0eda2142f7f6590dc70301cea22b08b2cd3.json
+    > cwd: ~/Documents/dataPipeline/notebooks
+07:53:17.970 [info] Kernel successfully started
+07:53:17.997 [info] Process Execution: ~/Documents/dataPipeline/venv/bin/python ~/.vscode-server/extensions/ms-toolsai.jupyter-2025.9.1-linux-x64/pythonFiles/printJupyterDataDir.py
+07:53:45.964 [info] Dispose Kernel '~/Documents/dataPipeline/notebooks/exploracao.ipynb' associated with '~/Documents/dataPipeline/notebooks/exploracao.ipynb'

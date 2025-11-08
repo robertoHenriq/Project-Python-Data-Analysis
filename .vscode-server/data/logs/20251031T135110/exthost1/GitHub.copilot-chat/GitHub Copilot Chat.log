@@ -1,0 +1,23 @@
+2025-10-31 13:51:40.864 [info] [GitExtensionServiceImpl] Initializing Git extension service.
+2025-10-31 13:51:40.865 [info] [GitExtensionServiceImpl] Successfully activated the vscode.git extension.
+2025-10-31 13:51:40.865 [info] [GitExtensionServiceImpl] Enablement state of the vscode.git extension: true.
+2025-10-31 13:51:40.865 [info] [GitExtensionServiceImpl] Successfully registered Git commit message provider.
+2025-10-31 13:51:41.807 [info] Can't use the Electron fetcher in this environment.
+2025-10-31 13:51:41.807 [info] Using the Node fetch fetcher.
+2025-10-31 13:51:43.643 [info] Logged in as robertoc4t
+2025-10-31 13:51:44.974 [info] Got Copilot token for robertoc4t
+2025-10-31 13:51:44.974 [info] Copilot Chat: 0.32.4, VS Code: 1.105.1
+2025-10-31 13:51:45.020 [info] activationBlocker from 'languageModelAccess' took for 3425ms
+2025-10-31 13:51:46.712 [info] Fetched model metadata in 5064ms 6d93f747-4c77-46db-b5e1-eef789c7b733
+2025-10-31 13:51:47.276 [info] copilot token chat_enabled: true, sku: free_limited_copilot
+2025-10-31 13:51:47.276 [info] GitHub.vscode-pull-request-github extension is not yet activated.
+2025-10-31 13:51:47.351 [info] Registering default platform agent...
+2025-10-31 13:51:47.358 [info] activationBlocker from 'conversationFeature' took for 5775ms
+2025-10-31 13:51:47.811 [info] Latest entry: ccreq:latest.copilotmd
+2025-10-31 13:51:47.814 [info] ccreq:ecaa8ecd.copilotmd | markdown
+2025-10-31 13:51:49.183 [info] Fetched model metadata in 819ms 26687886-e8a9-41eb-add6-e2bf263bd513
+2025-10-31 13:51:49.190 [info] ccreq:4c4e50cb.copilotmd | markdown
+2025-10-31 13:51:49.355 [info] Fetched auto model in 160ms.
+2025-10-31 13:51:49.594 [info] BYOK: Copilot Chat known models list fetched successfully.
+2025-10-31 13:51:55.450 [info] Refetch model metadata: Succeeded in 989ms 64bc3b3b-0d0f-4d09-b0f8-1c55eba1bec8 (90B4:1F018D:41AF06:4C0FF9:6904E92A) using node-fetch with status 200.
+2025-10-31 13:51:56.080 [info] Refetch model metadata: Succeeded in 630ms 95b95eaf-48d9-45e5-8f53-516dee36072c (9072:D5C3F:4221C0:4C9352:6904E92B) using node-http with status 200.

@@ -1,0 +1,79 @@
+Visual Studio Code (1.105.1, wsl, desktop)
+Jupyter Extension Version: 2025.9.1.
+Python Extension Version: 2025.16.0.
+Python Environment Extension Version: 1.10.0.
+Pylance Extension Version: 2025.9.1.
+Platform: linux (x64).
+Home = /root
+Temp Storage folder ~/.vscode-server/data/User/globalStorage/ms-toolsai.jupyter/version-2025.9.1
+Workspace folder ~/Documents/dataPipeline
+14:36:57.956 [info] Starting Kernel (Python Path: ~/Documents/dataPipeline/venv/bin/python, Venv, 3.10.12) for '~/Documents/dataPipeline/notebooks/exploracao.ipynb' (disableUI=true)
+14:37:04.722 [info] Process Execution: ~/Documents/dataPipeline/venv/bin/python -m pip list
+14:37:04.759 [info] Process Execution: ~/Documents/dataPipeline/venv/bin/python -c "import ipykernel; print(ipykernel.__version__); print("5dc3a68c-e34e-4080-9c3e-2a532b2ccb4d"); print(ipykernel.__file__)"
+14:37:04.794 [info] Process Execution: ~/Documents/dataPipeline/venv/bin/python -m ipykernel_launcher --f=/run/user/0/jupyter/runtime/kernel-v3bbc1be98152682139407b8605d17fa36963fcf62.json
+    > cwd: ~/Documents/dataPipeline/notebooks
+14:37:07.538 [info] Kernel successfully started
+14:37:07.580 [info] Process Execution: ~/Documents/dataPipeline/venv/bin/python ~/.vscode-server/extensions/ms-toolsai.jupyter-2025.9.1-linux-x64/pythonFiles/printJupyterDataDir.py
+14:46:54.812 [warn] Cell completed with errors Iu [Error]: name 'dataJson' is not defined
+    at n.execute (~/.vscode-server/extensions/ms-toolsai.jupyter-2025.9.1-linux-x64/dist/extension.node.js:302:4958) {
+  ename: 'NameError',
+  evalue: "name 'dataJson' is not defined",
+  traceback: [
+    '\x1B[0;31m---------------------------------------------------------------------------\x1B[0m',
+    '\x1B[0;31mNameError\x1B[0m                                 Traceback (most recent call last)',
+    'Cell \x1B[0;32mIn[1], line 1\x1B[0m\n' +
+      '\x1B[0;32m----> 1\x1B[0m \x1B[38;5;28mlen\x1B[39m(\x1B[43mdataJson\x1B[49m)\n',
+    "\x1B[0;31mNameError\x1B[0m: name 'dataJson' is not defined"
+  ]
+}
+14:52:19.577 [warn] Cell completed with errors Iu [Error]: list index out of range
+    at n.execute (~/.vscode-server/extensions/ms-toolsai.jupyter-2025.9.1-linux-x64/dist/extension.node.js:302:4958) {
+  ename: 'IndexError',
+  evalue: 'list index out of range',
+  traceback: [
+    '\x1B[0;31m---------------------------------------------------------------------------\x1B[0m',
+    '\x1B[0;31mIndexError\x1B[0m                                Traceback (most recent call last)',
+    'Cell \x1B[0;32mIn[45], line 1\x1B[0m\n' +
+      '\x1B[0;32m----> 1\x1B[0m \x1B[43mcombinedDataList\x1B[49m\x1B[43m[\x1B[49m\x1B[38;5;241;43m4446\x1B[39;49m\x1B[43m]\x1B[49m\n',
+    '\x1B[0;31mIndexError\x1B[0m: list index out of range'
+  ]
+}
+15:14:19.556 [warn] Cell completed with errors Iu [Error]: 'DictWriter' object has no attribute 'writerheader'
+    at n.execute (~/.vscode-server/extensions/ms-toolsai.jupyter-2025.9.1-linux-x64/dist/extension.node.js:302:4958) {
+  ename: 'AttributeError',
+  evalue: "'DictWriter' object has no attribute 'writerheader'",
+  traceback: [
+    '\x1B[0;31m---------------------------------------------------------------------------\x1B[0m',
+    '\x1B[0;31mAttributeError\x1B[0m                            Traceback (most recent call last)',
+    'Cell \x1B[0;32mIn[49], line 5\x1B[0m\n' +
+      "\x1B[1;32m      3\x1B[0m \x1B[38;5;28;01mwith\x1B[39;00m \x1B[38;5;28mopen\x1B[39m(pathDataCombined, \x1B[38;5;124m'\x1B[39m\x1B[38;5;124mw\x1B[39m\x1B[38;5;124m'\x1B[39m)\x1B[38;5;28;01mas\x1B[39;00m file:\n" +
+      '\x1B[1;32m      4\x1B[0m     writer \x1B[38;5;241m=\x1B[39m csv\x1B[38;5;241m.\x1B[39mDictWriter(file, fieldnames\x1B[38;5;241m=\x1B[39m nameColumns)\n' +
+      '\x1B[0;32m----> 5\x1B[0m     \x1B[43mwriter\x1B[49m\x1B[38;5;241;43m.\x1B[39;49m\x1B[43mwriterheader\x1B[49m()\n' +
+      '\x1B[1;32m      7\x1B[0m     \x1B[38;5;28;01mfor\x1B[39;00m row \x1B[38;5;129;01min\x1B[39;00m combinedDataList:\n' +
+      '\x1B[1;32m      8\x1B[0m         writer\x1B[38;5;241m.\x1B[39mwriterow(row)\n',
+    "\x1B[0;31mAttributeError\x1B[0m: 'DictWriter' object has no attribute 'writerheader'"
+  ]
+}
+15:15:08.909 [warn] Cell completed with errors Iu [Error]: dict contains fields not in fieldnames: 'Data Venda', 'Categoria', 'Preço', 'Estoque'
+    at n.execute (~/.vscode-server/extensions/ms-toolsai.jupyter-2025.9.1-linux-x64/dist/extension.node.js:302:4958) {
+  ename: 'ValueError',
+  evalue: "dict contains fields not in fieldnames: 'Data Venda', 'Categoria', 'Preço', 'Estoque'",
+  traceback: [
+    '\x1B[0;31m---------------------------------------------------------------------------\x1B[0m',
+    '\x1B[0;31mValueError\x1B[0m                                Traceback (most recent call last)',
+    'Cell \x1B[0;32mIn[50], line 8\x1B[0m\n' +
+      '\x1B[1;32m      5\x1B[0m writer\x1B[38;5;241m.\x1B[39mwriteheader()\n' +
+      '\x1B[1;32m      7\x1B[0m \x1B[38;5;28;01mfor\x1B[39;00m row \x1B[38;5;129;01min\x1B[39;00m combinedDataList:\n' +
+      '\x1B[0;32m----> 8\x1B[0m     \x1B[43mwriter\x1B[49m\x1B[38;5;241;43m.\x1B[39;49m\x1B[43mwriterow\x1B[49m\x1B[43m(\x1B[49m\x1B[43mrow\x1B[49m\x1B[43m)\x1B[49m\n',
+    'File \x1B[0;32m/usr/lib/python3.10/csv.py:154\x1B[0m, in \x1B[0;36mDictWriter.writerow\x1B[0;34m(self, rowdict)\x1B[0m\n' +
+      '\x1B[1;32m    153\x1B[0m \x1B[38;5;28;01mdef\x1B[39;00m\x1B[38;5;250m \x1B[39m\x1B[38;5;21mwriterow\x1B[39m(\x1B[38;5;28mself\x1B[39m, rowdict):\n' +
+      '\x1B[0;32m--> 154\x1B[0m     \x1B[38;5;28;01mreturn\x1B[39;00m \x1B[38;5;28mself\x1B[39m\x1B[38;5;241m.\x1B[39mwriter\x1B[38;5;241m.\x1B[39mwriterow(\x1B[38;5;28;43mself\x1B[39;49m\x1B[38;5;241;43m.\x1B[39;49m\x1B[43m_dict_to_list\x1B[49m\x1B[43m(\x1B[49m\x1B[43mrowdict\x1B[49m\x1B[43m)\x1B[49m)\n',
+    'File \x1B[0;32m/usr/lib/python3.10/csv.py:149\x1B[0m, in \x1B[0;36mDictWriter._dict_to_list\x1B[0;34m(self, rowdict)\x1B[0m\n' +
+      '\x1B[1;32m    147\x1B[0m     wrong_fields \x1B[38;5;241m=\x1B[39m rowdict\x1B[38;5;241m.\x1B[39mkeys() \x1B[38;5;241m-\x1B[39m \x1B[38;5;28mself\x1B[39m\x1B[38;5;241m.\x1B[39mfieldnames\n' +
+      '\x1B[1;32m    148\x1B[0m     \x1B[38;5;28;01mif\x1B[39;00m wrong_fields:\n' +
+      '\x1B[0;32m--> 149\x1B[0m         \x1B[38;5;28;01mraise\x1B[39;00m \x1B[38;5;167;01mValueError\x1B[39;00m(\x1B[38;5;124m"\x1B[39m\x1B[38;5;124mdict contains fields not in fieldnames: \x1B[39m\x1B[38;5;124m"\x1B[39m\n' +
+      '\x1B[1;32m    150\x1B[0m                          \x1B[38;5;241m+\x1B[39m \x1B[38;5;124m"\x1B[39m\x1B[38;5;124m, \x1B[39m\x1B[38;5;124m"\x1B[39m\x1B[38;5;241m.\x1B[39mjoin([\x1B[38;5;28mrepr\x1B[39m(x) \x1B[38;5;28;01mfor\x1B[39;00m x \x1B[38;5;129;01min\x1B[39;00m wrong_fields]))\n' +
+      '\x1B[1;32m    151\x1B[0m \x1B[38;5;28;01mreturn\x1B[39;00m (rowdict\x1B[38;5;241m.\x1B[39mget(key, \x1B[38;5;28mself\x1B[39m\x1B[38;5;241m.\x1B[39mrestval) \x1B[38;5;28;01mfor\x1B[39;00m key \x1B[38;5;129;01min\x1B[39;00m \x1B[38;5;28mself\x1B[39m\x1B[38;5;241m.\x1B[39mfieldnames)\n',
+    "\x1B[0;31mValueError\x1B[0m: dict contains fields not in fieldnames: 'Data Venda', 'Categoria', 'Preço', 'Estoque'"
+  ]
+}

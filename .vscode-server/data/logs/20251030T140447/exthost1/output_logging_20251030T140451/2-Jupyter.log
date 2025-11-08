@@ -1,0 +1,297 @@
+Visual Studio Code (1.105.1, wsl, desktop)
+Jupyter Extension Version: 2025.9.1.
+Python Extension Version: 2025.16.0.
+Python Environment Extension Version: 1.10.0.
+Pylance Extension Version: 2025.9.1.
+Platform: linux (x64).
+Home = /root
+Temp Storage folder ~/.vscode-server/data/User/globalStorage/ms-toolsai.jupyter/version-2025.9.1
+Workspace folder ~/Documents/dataPipeline
+14:38:49.142 [info] Starting Kernel (Python Path: ~/Documents/dataPipeline/venv/bin/python, Venv, 3.10.12) for '~/Documents/dataPipeline/notebooks/exploracao.ipynb' (disableUI=true)
+14:38:49.740 [info] Process Execution: ~/Documents/dataPipeline/venv/bin/python -m pip list
+14:38:50.075 [info] Process Execution: ~/Documents/dataPipeline/venv/bin/python -c "import ipykernel; print(ipykernel.__version__); print("5dc3a68c-e34e-4080-9c3e-2a532b2ccb4d"); print(ipykernel.__file__)"
+14:38:50.094 [info] Process Execution: ~/Documents/dataPipeline/venv/bin/python -m ipykernel_launcher --f=/run/user/0/jupyter/runtime/kernel-v37973b6178b524e9c60e77f4baf282db1d0d76b52.json
+    > cwd: ~/Documents/dataPipeline/notebooks
+14:38:50.131 [warn] Stderr output when getting ipykernel version & path Traceback (most recent call last):
+    File "<string>", line 1, in <module>
+    ModuleNotFoundError: No module named 'ipykernel' for ~/Documents/dataPipeline/venv/bin/python
+14:38:50.176 [error] Disposing kernel process due to an error Error: The kernel died. Error: ~/Documents/dataPipeline/venv/bin/python: No module named ipykernel_launcher... View Jupyter [log](command:jupyter.viewOutput) for further details.
+    > Kernel Id = .jvsc74a57bd0802a60a6f5599d12a55a0847da16f8bd645479c7a231f69ed7c915da97210177.~/Documents/dataPipeline/venv/python.~/Documents/dataPipeline/venv/python.-m#ipykernel_launcher
+    > Interpreter Id = ~/Documents/dataPipeline/venv/bin/python
+    > at ChildProcess.<anonymous> (~/.vscode-server/extensions/ms-toolsai.jupyter-2025.9.1-linux-x64/dist/extension.node.js:304:45805)
+    > stdErr = ~/Documents/dataPipeline/venv/bin/python: No module named ipykernel_launcher
+14:38:50.185 [error] Failed to connect raw kernel session: Error: The kernel died. Error: ~/Documents/dataPipeline/venv/bin/python: No module named ipykernel_launcher... View Jupyter [log](command:jupyter.viewOutput) for further details.
+14:38:50.186 [error] Failed to connect raw kernel session: Error: The kernel died. Error: ~/Documents/dataPipeline/venv/bin/python: No module named ipykernel_launcher... View Jupyter [log](command:jupyter.viewOutput) for further details.
+14:38:50.187 [warn] Failed to shutdown kernel, .jvsc74a57bd0802a60a6f5599d12a55a0847da16f8bd645479c7a231f69ed7c915da97210177.~/Documents/dataPipeline/venv/python.~/Documents/dataPipeline/venv/python.-m#ipykernel_launcher TypeError: Cannot read properties of undefined (reading 'dispose')
+    at JT.shutdown (~/.vscode-server/extensions/ms-toolsai.jupyter-2025.9.1-linux-x64/dist/extension.node.js:309:13632)
+    at processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at qT.shutdown (~/.vscode-server/extensions/ms-toolsai.jupyter-2025.9.1-linux-x64/dist/extension.node.js:309:22453)
+14:38:50.191 [warn] Error occurred while trying to start the kernel, options.disableUI=true Error: The kernel died. Error: ~/Documents/dataPipeline/venv/bin/python: No module named ipykernel_launcher... View Jupyter [log](command:jupyter.viewOutput) for further details.
+    > Kernel Id = .jvsc74a57bd0802a60a6f5599d12a55a0847da16f8bd645479c7a231f69ed7c915da97210177.~/Documents/dataPipeline/venv/python.~/Documents/dataPipeline/venv/python.-m#ipykernel_launcher
+    > Interpreter Id = ~/Documents/dataPipeline/venv/bin/python
+    > at ChildProcess.<anonymous> (~/.vscode-server/extensions/ms-toolsai.jupyter-2025.9.1-linux-x64/dist/extension.node.js:304:45805)
+    > stdErr = ~/Documents/dataPipeline/venv/bin/python: No module named ipykernel_launcher
+14:38:52.581 [info] Starting Kernel (Python Path: ~/Documents/dataPipeline/venv/bin/python, Venv, 3.10.12) for '~/Documents/dataPipeline/notebooks/exploracao.ipynb' (disableUI=false)
+14:38:52.611 [info] Process Execution: ~/Documents/dataPipeline/venv/bin/python -c "import ipykernel; print(ipykernel.__version__); print("5dc3a68c-e34e-4080-9c3e-2a532b2ccb4d"); print(ipykernel.__file__)"
+14:38:52.670 [info] Process Execution: ~/Documents/dataPipeline/venv/bin/python -m ipykernel_launcher --f=/run/user/0/jupyter/runtime/kernel-v309df009c7f0bd6716ace142346c6fdd8d5041a19.json
+    > cwd: ~/Documents/dataPipeline/notebooks
+14:38:52.689 [warn] Stderr output when getting ipykernel version & path Traceback (most recent call last):
+    File "<string>", line 1, in <module>
+    ModuleNotFoundError: No module named 'ipykernel' for ~/Documents/dataPipeline/venv/bin/python
+14:38:52.740 [error] Disposing kernel process due to an error Error: The kernel died. Error: ~/Documents/dataPipeline/venv/bin/python: No module named ipykernel_launcher... View Jupyter [log](command:jupyter.viewOutput) for further details.
+    > Kernel Id = .jvsc74a57bd0802a60a6f5599d12a55a0847da16f8bd645479c7a231f69ed7c915da97210177.~/Documents/dataPipeline/venv/python.~/Documents/dataPipeline/venv/python.-m#ipykernel_launcher
+    > Interpreter Id = ~/Documents/dataPipeline/venv/bin/python
+    > at ChildProcess.<anonymous> (~/.vscode-server/extensions/ms-toolsai.jupyter-2025.9.1-linux-x64/dist/extension.node.js:304:45805)
+    > stdErr = ~/Documents/dataPipeline/venv/bin/python: No module named ipykernel_launcher
+14:38:52.743 [error] Failed to connect raw kernel session: Error: The kernel died. Error: ~/Documents/dataPipeline/venv/bin/python: No module named ipykernel_launcher... View Jupyter [log](command:jupyter.viewOutput) for further details.
+14:38:52.744 [error] Failed to connect raw kernel session: Error: The kernel died. Error: ~/Documents/dataPipeline/venv/bin/python: No module named ipykernel_launcher... View Jupyter [log](command:jupyter.viewOutput) for further details.
+14:38:52.744 [warn] Failed to shutdown kernel, .jvsc74a57bd0802a60a6f5599d12a55a0847da16f8bd645479c7a231f69ed7c915da97210177.~/Documents/dataPipeline/venv/python.~/Documents/dataPipeline/venv/python.-m#ipykernel_launcher TypeError: Cannot read properties of undefined (reading 'dispose')
+    at JT.shutdown (~/.vscode-server/extensions/ms-toolsai.jupyter-2025.9.1-linux-x64/dist/extension.node.js:309:13632)
+    at processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at qT.shutdown (~/.vscode-server/extensions/ms-toolsai.jupyter-2025.9.1-linux-x64/dist/extension.node.js:309:22453)
+14:38:52.747 [warn] Error occurred while trying to start the kernel, options.disableUI=false Error: The kernel died. Error: ~/Documents/dataPipeline/venv/bin/python: No module named ipykernel_launcher... View Jupyter [log](command:jupyter.viewOutput) for further details.
+    > Kernel Id = .jvsc74a57bd0802a60a6f5599d12a55a0847da16f8bd645479c7a231f69ed7c915da97210177.~/Documents/dataPipeline/venv/python.~/Documents/dataPipeline/venv/python.-m#ipykernel_launcher
+    > Interpreter Id = ~/Documents/dataPipeline/venv/bin/python
+    > at ChildProcess.<anonymous> (~/.vscode-server/extensions/ms-toolsai.jupyter-2025.9.1-linux-x64/dist/extension.node.js:304:45805)
+    > stdErr = ~/Documents/dataPipeline/venv/bin/python: No module named ipykernel_launcher
+14:38:52.749 [warn] Kernel Error, context = start Error: The kernel died. Error: ~/Documents/dataPipeline/venv/bin/python: No module named ipykernel_launcher... View Jupyter [log](command:jupyter.viewOutput) for further details.
+    > Kernel Id = .jvsc74a57bd0802a60a6f5599d12a55a0847da16f8bd645479c7a231f69ed7c915da97210177.~/Documents/dataPipeline/venv/python.~/Documents/dataPipeline/venv/python.-m#ipykernel_launcher
+    > Interpreter Id = ~/Documents/dataPipeline/venv/bin/python
+    > at ChildProcess.<anonymous> (~/.vscode-server/extensions/ms-toolsai.jupyter-2025.9.1-linux-x64/dist/extension.node.js:304:45805)
+    > stdErr = ~/Documents/dataPipeline/venv/bin/python: No module named ipykernel_launcher
+14:38:52.771 [info] Process Execution: ~/Documents/dataPipeline/venv/bin/python -c "import ipykernel;print('6af208d0-cb9c-427f-b937-ff563e17efdf')"
+14:38:52.826 [info] Check & install missing Kernel dependencies for ~/Documents/dataPipeline/venv/bin/python, ui.disabled=false for resource '~/Documents/dataPipeline/notebooks/exploracao.ipynb'
+14:38:52.843 [info] Process Execution: ~/Documents/dataPipeline/venv/bin/python -c "import ipykernel;print('6af208d0-cb9c-427f-b937-ff563e17efdf')"
+14:38:52.908 [info] Process Execution: ~/Documents/dataPipeline/venv/bin/python -c "import pip;print('6af208d0-cb9c-427f-b937-ff563e17efdf')"
+14:38:53.889 [info] Process Execution: ~/Documents/dataPipeline/venv/bin/python -c "import pip;print('6af208d0-cb9c-427f-b937-ff563e17efdf')"
+14:38:53.994 [info] Process Execution: ~/Documents/dataPipeline/venv/bin/python -m pip install -U ipykernel
+14:39:20.768 [info] Process Execution: ~/Documents/dataPipeline/venv/bin/python -c "import ipykernel;print('6af208d0-cb9c-427f-b937-ff563e17efdf')"
+14:39:21.350 [info] Dispose Kernel '~/Documents/dataPipeline/notebooks/exploracao.ipynb' associated with '~/Documents/dataPipeline/notebooks/exploracao.ipynb'
+14:39:21.366 [info] Process Execution: ~/Documents/dataPipeline/venv/bin/python -m pip list
+14:39:21.367 [info] Starting Kernel (Python Path: ~/Documents/dataPipeline/venv/bin/python, Venv, 3.10.12) for '~/Documents/dataPipeline/notebooks/exploracao.ipynb' (disableUI=false)
+14:39:21.393 [info] Process Execution: ~/Documents/dataPipeline/venv/bin/python -c "import ipykernel; print(ipykernel.__version__); print("5dc3a68c-e34e-4080-9c3e-2a532b2ccb4d"); print(ipykernel.__file__)"
+14:39:21.447 [info] Process Execution: ~/Documents/dataPipeline/venv/bin/python -m ipykernel_launcher --f=/run/user/0/jupyter/runtime/kernel-v3095fa9faea96c0151fc9f6631e2aede2780b4600.json
+    > cwd: ~/Documents/dataPipeline/notebooks
+14:39:23.011 [info] Kernel successfully started
+14:44:23.113 [warn] Cell completed with errors Iu [Error]: name 'pathJson' is not defined
+    at n.execute (~/.vscode-server/extensions/ms-toolsai.jupyter-2025.9.1-linux-x64/dist/extension.node.js:302:4958) {
+  ename: 'NameError',
+  evalue: "name 'pathJson' is not defined",
+  traceback: [
+    '\x1B[0;31m---------------------------------------------------------------------------\x1B[0m',
+    '\x1B[0;31mNameError\x1B[0m                                 Traceback (most recent call last)',
+    'Cell \x1B[0;32mIn[2], line 1\x1B[0m\n' +
+      "\x1B[0;32m----> 1\x1B[0m \x1B[38;5;28;01mwith\x1B[39;00m \x1B[38;5;28mopen\x1B[39m(\x1B[43mpathJson\x1B[49m, \x1B[38;5;124m'\x1B[39m\x1B[38;5;124mr\x1B[39m\x1B[38;5;124m'\x1B[39m) \x1B[38;5;28;01mas\x1B[39;00m file:\n" +
+      '\x1B[1;32m      2\x1B[0m     \x1B[38;5;28mprint\x1B[39m(file\x1B[38;5;241m.\x1B[39mreadline())\n',
+    "\x1B[0;31mNameError\x1B[0m: name 'pathJson' is not defined"
+  ]
+}
+14:44:54.782 [warn] Cell completed with errors Iu [Error]: [Errno 2] No such file or directory: '../data/raw/olist_orders_dataset.json'
+    at n.execute (~/.vscode-server/extensions/ms-toolsai.jupyter-2025.9.1-linux-x64/dist/extension.node.js:302:4958) {
+  ename: 'FileNotFoundError',
+  evalue: "[Errno 2] No such file or directory: '../data/raw/olist_orders_dataset.json'",
+  traceback: [
+    '\x1B[0;31m---------------------------------------------------------------------------\x1B[0m',
+    '\x1B[0;31mFileNotFoundError\x1B[0m                         Traceback (most recent call last)',
+    'Cell \x1B[0;32mIn[4], line 1\x1B[0m\n' +
+      "\x1B[0;32m----> 1\x1B[0m \x1B[38;5;28;01mwith\x1B[39;00m \x1B[38;5;28;43mopen\x1B[39;49m\x1B[43m(\x1B[49m\x1B[43mpathJson\x1B[49m\x1B[43m,\x1B[49m\x1B[43m \x1B[49m\x1B[38;5;124;43m'\x1B[39;49m\x1B[38;5;124;43mr\x1B[39;49m\x1B[38;5;124;43m'\x1B[39;49m\x1B[43m)\x1B[49m \x1B[38;5;28;01mas\x1B[39;00m file:\n" +
+      '\x1B[1;32m      2\x1B[0m     \x1B[38;5;28mprint\x1B[39m(file\x1B[38;5;241m.\x1B[39mreadline())\n',
+    'File \x1B[0;32m~/Documents/dataPipeline/venv/lib/python3.10/site-packages/IPython/core/interactiveshell.py:324\x1B[0m, in \x1B[0;36m_modified_open\x1B[0;34m(file, *args, **kwargs)\x1B[0m\n' +
+      '\x1B[1;32m    317\x1B[0m \x1B[38;5;28;01mif\x1B[39;00m file \x1B[38;5;129;01min\x1B[39;00m {\x1B[38;5;241m0\x1B[39m, \x1B[38;5;241m1\x1B[39m, \x1B[38;5;241m2\x1B[39m}:\n' +
+      '\x1B[1;32m    318\x1B[0m     \x1B[38;5;28;01mraise\x1B[39;00m \x1B[38;5;167;01mValueError\x1B[39;00m(\n' +
+      `\x1B[1;32m    319\x1B[0m         \x1B[38;5;124mf\x1B[39m\x1B[38;5;124m"\x1B[39m\x1B[38;5;124mIPython won\x1B[39m\x1B[38;5;124m'\x1B[39m\x1B[38;5;124mt let you open fd=\x1B[39m\x1B[38;5;132;01m{\x1B[39;00mfile\x1B[38;5;132;01m}\x1B[39;00m\x1B[38;5;124m by default \x1B[39m\x1B[38;5;124m"\x1B[39m\n` +
+      '\x1B[1;32m    320\x1B[0m         \x1B[38;5;124m"\x1B[39m\x1B[38;5;124mas it is likely to crash IPython. If you know what you are doing, \x1B[39m\x1B[38;5;124m"\x1B[39m\n' +
+      `\x1B[1;32m    321\x1B[0m         \x1B[38;5;124m"\x1B[39m\x1B[38;5;124myou can use builtins\x1B[39m\x1B[38;5;124m'\x1B[39m\x1B[38;5;124m open.\x1B[39m\x1B[38;5;124m"\x1B[39m\n` +
+      '\x1B[1;32m    322\x1B[0m     )\n' +
+      '\x1B[0;32m--> 324\x1B[0m \x1B[38;5;28;01mreturn\x1B[39;00m \x1B[43mio_open\x1B[49m\x1B[43m(\x1B[49m\x1B[43mfile\x1B[49m\x1B[43m,\x1B[49m\x1B[43m \x1B[49m\x1B[38;5;241;43m*\x1B[39;49m\x1B[43margs\x1B[49m\x1B[43m,\x1B[49m\x1B[43m \x1B[49m\x1B[38;5;241;43m*\x1B[39;49m\x1B[38;5;241;43m*\x1B[39;49m\x1B[43mkwargs\x1B[49m\x1B[43m)\x1B[49m\n',
+    "\x1B[0;31mFileNotFoundError\x1B[0m: [Errno 2] No such file or directory: '../data/raw/olist_orders_dataset.json'"
+  ]
+}
+14:46:44.561 [warn] Cell completed with errors Iu [Error]: [Errno 2] No such file or directory: '../dataRaw/olist_orders_dataset.json'
+    at n.execute (~/.vscode-server/extensions/ms-toolsai.jupyter-2025.9.1-linux-x64/dist/extension.node.js:302:4958) {
+  ename: 'FileNotFoundError',
+  evalue: "[Errno 2] No such file or directory: '../dataRaw/olist_orders_dataset.json'",
+  traceback: [
+    '\x1B[0;31m---------------------------------------------------------------------------\x1B[0m',
+    '\x1B[0;31mFileNotFoundError\x1B[0m                         Traceback (most recent call last)',
+    'Cell \x1B[0;32mIn[6], line 1\x1B[0m\n' +
+      "\x1B[0;32m----> 1\x1B[0m \x1B[38;5;28;01mwith\x1B[39;00m \x1B[38;5;28;43mopen\x1B[39;49m\x1B[43m(\x1B[49m\x1B[43mpathJson\x1B[49m\x1B[43m,\x1B[49m\x1B[43m \x1B[49m\x1B[38;5;124;43m'\x1B[39;49m\x1B[38;5;124;43mr\x1B[39;49m\x1B[38;5;124;43m'\x1B[39;49m\x1B[43m)\x1B[49m \x1B[38;5;28;01mas\x1B[39;00m file:\n" +
+      '\x1B[1;32m      2\x1B[0m     \x1B[38;5;28mprint\x1B[39m(file\x1B[38;5;241m.\x1B[39mreadline())\n',
+    'File \x1B[0;32m~/Documents/dataPipeline/venv/lib/python3.10/site-packages/IPython/core/interactiveshell.py:324\x1B[0m, in \x1B[0;36m_modified_open\x1B[0;34m(file, *args, **kwargs)\x1B[0m\n' +
+      '\x1B[1;32m    317\x1B[0m \x1B[38;5;28;01mif\x1B[39;00m file \x1B[38;5;129;01min\x1B[39;00m {\x1B[38;5;241m0\x1B[39m, \x1B[38;5;241m1\x1B[39m, \x1B[38;5;241m2\x1B[39m}:\n' +
+      '\x1B[1;32m    318\x1B[0m     \x1B[38;5;28;01mraise\x1B[39;00m \x1B[38;5;167;01mValueError\x1B[39;00m(\n' +
+      `\x1B[1;32m    319\x1B[0m         \x1B[38;5;124mf\x1B[39m\x1B[38;5;124m"\x1B[39m\x1B[38;5;124mIPython won\x1B[39m\x1B[38;5;124m'\x1B[39m\x1B[38;5;124mt let you open fd=\x1B[39m\x1B[38;5;132;01m{\x1B[39;00mfile\x1B[38;5;132;01m}\x1B[39;00m\x1B[38;5;124m by default \x1B[39m\x1B[38;5;124m"\x1B[39m\n` +
+      '\x1B[1;32m    320\x1B[0m         \x1B[38;5;124m"\x1B[39m\x1B[38;5;124mas it is likely to crash IPython. If you know what you are doing, \x1B[39m\x1B[38;5;124m"\x1B[39m\n' +
+      `\x1B[1;32m    321\x1B[0m         \x1B[38;5;124m"\x1B[39m\x1B[38;5;124myou can use builtins\x1B[39m\x1B[38;5;124m'\x1B[39m\x1B[38;5;124m open.\x1B[39m\x1B[38;5;124m"\x1B[39m\n` +
+      '\x1B[1;32m    322\x1B[0m     )\n' +
+      '\x1B[0;32m--> 324\x1B[0m \x1B[38;5;28;01mreturn\x1B[39;00m \x1B[43mio_open\x1B[49m\x1B[43m(\x1B[49m\x1B[43mfile\x1B[49m\x1B[43m,\x1B[49m\x1B[43m \x1B[49m\x1B[38;5;241;43m*\x1B[39;49m\x1B[43margs\x1B[49m\x1B[43m,\x1B[49m\x1B[43m \x1B[49m\x1B[38;5;241;43m*\x1B[39;49m\x1B[38;5;241;43m*\x1B[39;49m\x1B[43mkwargs\x1B[49m\x1B[43m)\x1B[49m\n',
+    "\x1B[0;31mFileNotFoundError\x1B[0m: [Errno 2] No such file or directory: '../dataRaw/olist_orders_dataset.json'"
+  ]
+}
+17:13:48.347 [warn] Cell completed with errors Iu [Error]: 'str' object is not callable
+    at n.execute (~/.vscode-server/extensions/ms-toolsai.jupyter-2025.9.1-linux-x64/dist/extension.node.js:302:4958) {
+  ename: 'TypeError',
+  evalue: "'str' object is not callable",
+  traceback: [
+    '\x1B[0;31m---------------------------------------------------------------------------\x1B[0m',
+    '\x1B[0;31mTypeError\x1B[0m                                 Traceback (most recent call last)',
+    'Cell \x1B[0;32mIn[22], line 1\x1B[0m\n' +
+      '\x1B[0;32m----> 1\x1B[0m \x1B[43mdados\x1B[49m\x1B[43m(\x1B[49m\x1B[38;5;241;43m1\x1B[39;49m\x1B[43m)\x1B[49m\n',
+    "\x1B[0;31mTypeError\x1B[0m: 'str' object is not callable"
+  ]
+}
+17:14:34.210 [warn] Cell completed with errors Iu [Error]: name 'readline' is not defined
+    at n.execute (~/.vscode-server/extensions/ms-toolsai.jupyter-2025.9.1-linux-x64/dist/extension.node.js:302:4958) {
+  ename: 'NameError',
+  evalue: "name 'readline' is not defined",
+  traceback: [
+    '\x1B[0;31m---------------------------------------------------------------------------\x1B[0m',
+    '\x1B[0;31mNameError\x1B[0m                                 Traceback (most recent call last)',
+    'Cell \x1B[0;32mIn[24], line 1\x1B[0m\n' +
+      '\x1B[0;32m----> 1\x1B[0m dados[\x1B[43mreadline\x1B[49m(\x1B[38;5;241m1\x1B[39m)]\n',
+    "\x1B[0;31mNameError\x1B[0m: name 'readline' is not defined"
+  ]
+}
+00:31:36.127 [warn] Cell completed with errors Iu [Error]: name 'r' is not defined
+    at n.execute (~/.vscode-server/extensions/ms-toolsai.jupyter-2025.9.1-linux-x64/dist/extension.node.js:302:4958) {
+  ename: 'NameError',
+  evalue: "name 'r' is not defined",
+  traceback: [
+    '\x1B[0;31m---------------------------------------------------------------------------\x1B[0m',
+    '\x1B[0;31mNameError\x1B[0m                                 Traceback (most recent call last)',
+    'Cell \x1B[0;32mIn[26], line 1\x1B[0m\n' +
+      '\x1B[0;32m----> 1\x1B[0m \x1B[38;5;28;01mwith\x1B[39;00m \x1B[38;5;28mopen\x1B[39m(pathJson, \x1B[43mr\x1B[49m) \x1B[38;5;28;01mas\x1B[39;00m file:\n' +
+      '\x1B[1;32m      2\x1B[0m     dataJson \x1B[38;5;241m=\x1B[39m json\x1B[38;5;241m.\x1B[39mload(file)\n',
+    "\x1B[0;31mNameError\x1B[0m: name 'r' is not defined"
+  ]
+}
+00:40:30.252 [warn] Cell completed with errors Iu [Error]: name 'pathCsv' is not defined
+    at n.execute (~/.vscode-server/extensions/ms-toolsai.jupyter-2025.9.1-linux-x64/dist/extension.node.js:302:4958) {
+  ename: 'NameError',
+  evalue: "name 'pathCsv' is not defined",
+  traceback: [
+    '\x1B[0;31m---------------------------------------------------------------------------\x1B[0m',
+    '\x1B[0;31mNameError\x1B[0m                                 Traceback (most recent call last)',
+    'Cell \x1B[0;32mIn[33], line 1\x1B[0m\n' +
+      "\x1B[0;32m----> 1\x1B[0m \x1B[38;5;28;01mwith\x1B[39;00m \x1B[38;5;28mopen\x1B[39m(\x1B[43mpathCsv\x1B[49m, \x1B[38;5;124m'\x1B[39m\x1B[38;5;124mr\x1B[39m\x1B[38;5;124m'\x1B[39m)\x1B[38;5;28;01mas\x1B[39;00m file:\n" +
+      '\x1B[1;32m      2\x1B[0m     \x1B[38;5;28mprint\x1B[39m(file\x1B[38;5;241m.\x1B[39mreadline())\n',
+    "\x1B[0;31mNameError\x1B[0m: name 'pathCsv' is not defined"
+  ]
+}
+00:41:11.931 [warn] Cell completed with errors Iu [Error]: name 'pathCsv' is not defined
+    at n.execute (~/.vscode-server/extensions/ms-toolsai.jupyter-2025.9.1-linux-x64/dist/extension.node.js:302:4958) {
+  ename: 'NameError',
+  evalue: "name 'pathCsv' is not defined",
+  traceback: [
+    '\x1B[0;31m---------------------------------------------------------------------------\x1B[0m',
+    '\x1B[0;31mNameError\x1B[0m                                 Traceback (most recent call last)',
+    'Cell \x1B[0;32mIn[34], line 1\x1B[0m\n' +
+      "\x1B[0;32m----> 1\x1B[0m \x1B[38;5;28;01mwith\x1B[39;00m \x1B[38;5;28mopen\x1B[39m(\x1B[43mpathCsv\x1B[49m, \x1B[38;5;124m'\x1B[39m\x1B[38;5;124mr\x1B[39m\x1B[38;5;124m'\x1B[39m)\x1B[38;5;28;01mas\x1B[39;00m file:\n" +
+      '\x1B[1;32m      2\x1B[0m     \x1B[38;5;28mprint\x1B[39m(file\x1B[38;5;241m.\x1B[39mreadlines())\n',
+    "\x1B[0;31mNameError\x1B[0m: name 'pathCsv' is not defined"
+  ]
+}
+00:41:23.689 [warn] Cell completed with errors Iu [Error]: name 'pathCsv' is not defined
+    at n.execute (~/.vscode-server/extensions/ms-toolsai.jupyter-2025.9.1-linux-x64/dist/extension.node.js:302:4958) {
+  ename: 'NameError',
+  evalue: "name 'pathCsv' is not defined",
+  traceback: [
+    '\x1B[0;31m---------------------------------------------------------------------------\x1B[0m',
+    '\x1B[0;31mNameError\x1B[0m                                 Traceback (most recent call last)',
+    'Cell \x1B[0;32mIn[35], line 1\x1B[0m\n' +
+      "\x1B[0;32m----> 1\x1B[0m \x1B[38;5;28;01mwith\x1B[39;00m \x1B[38;5;28mopen\x1B[39m(\x1B[43mpathCsv\x1B[49m, \x1B[38;5;124m'\x1B[39m\x1B[38;5;124mr\x1B[39m\x1B[38;5;124m'\x1B[39m) \x1B[38;5;28;01mas\x1B[39;00m file:\n" +
+      '\x1B[1;32m      2\x1B[0m     \x1B[38;5;28mprint\x1B[39m(file\x1B[38;5;241m.\x1B[39mreadlines())\n',
+    "\x1B[0;31mNameError\x1B[0m: name 'pathCsv' is not defined"
+  ]
+}
+00:43:21.977 [warn] Cell completed with errors Iu [Error]: '_io.TextIOWrapper' object is not subscriptable
+    at n.execute (~/.vscode-server/extensions/ms-toolsai.jupyter-2025.9.1-linux-x64/dist/extension.node.js:302:4958) {
+  ename: 'TypeError',
+  evalue: "'_io.TextIOWrapper' object is not subscriptable",
+  traceback: [
+    '\x1B[0;31m---------------------------------------------------------------------------\x1B[0m',
+    '\x1B[0;31mTypeError\x1B[0m                                 Traceback (most recent call last)',
+    'Cell \x1B[0;32mIn[38], line 2\x1B[0m\n' +
+      "\x1B[1;32m      1\x1B[0m \x1B[38;5;28;01mwith\x1B[39;00m \x1B[38;5;28mopen\x1B[39m(pathcsv, \x1B[38;5;124m'\x1B[39m\x1B[38;5;124mr\x1B[39m\x1B[38;5;124m'\x1B[39m) \x1B[38;5;28;01mas\x1B[39;00m file:\n" +
+      '\x1B[0;32m----> 2\x1B[0m     \x1B[38;5;28mprint\x1B[39m(\x1B[43mfile\x1B[49m\x1B[43m[\x1B[49m\x1B[38;5;241;43m1\x1B[39;49m\x1B[43m]\x1B[49m)\n',
+    "\x1B[0;31mTypeError\x1B[0m: '_io.TextIOWrapper' object is not subscriptable"
+  ]
+}
+00:54:46.311 [warn] Cell completed with errors Iu [Error]: name 'datacsv' is not defined
+    at n.execute (~/.vscode-server/extensions/ms-toolsai.jupyter-2025.9.1-linux-x64/dist/extension.node.js:302:4958) {
+  ename: 'NameError',
+  evalue: "name 'datacsv' is not defined",
+  traceback: [
+    '\x1B[0;31m---------------------------------------------------------------------------\x1B[0m',
+    '\x1B[0;31mNameError\x1B[0m                                 Traceback (most recent call last)',
+    'Cell \x1B[0;32mIn[54], line 4\x1B[0m\n' +
+      "\x1B[1;32m      2\x1B[0m spamReader \x1B[38;5;241m=\x1B[39m csv\x1B[38;5;241m.\x1B[39mreader(file, delimiter\x1B[38;5;241m=\x1B[39m\x1B[38;5;124m'\x1B[39m\x1B[38;5;124m,\x1B[39m\x1B[38;5;124m'\x1B[39m)\n" +
+      '\x1B[1;32m      3\x1B[0m \x1B[38;5;28;01mfor\x1B[39;00m row \x1B[38;5;129;01min\x1B[39;00m spamReader:\n' +
+      '\x1B[0;32m----> 4\x1B[0m     \x1B[43mdatacsv\x1B[49m\x1B[38;5;241m.\x1B[39mappend(row)\n',
+    "\x1B[0;31mNameError\x1B[0m: name 'datacsv' is not defined"
+  ]
+}
+00:54:51.306 [warn] Cell completed with errors Iu [Error]: name 'datacsv' is not defined
+    at n.execute (~/.vscode-server/extensions/ms-toolsai.jupyter-2025.9.1-linux-x64/dist/extension.node.js:302:4958) {
+  ename: 'NameError',
+  evalue: "name 'datacsv' is not defined",
+  traceback: [
+    '\x1B[0;31m---------------------------------------------------------------------------\x1B[0m',
+    '\x1B[0;31mNameError\x1B[0m                                 Traceback (most recent call last)',
+    'Cell \x1B[0;32mIn[55], line 1\x1B[0m\n' +
+      '\x1B[0;32m----> 1\x1B[0m \x1B[43mdatacsv\x1B[49m[\x1B[38;5;241m0\x1B[39m][\x1B[38;5;241m1\x1B[39m]\n',
+    "\x1B[0;31mNameError\x1B[0m: name 'datacsv' is not defined"
+  ]
+}
+01:00:16.332 [warn] Cell completed with errors Iu [Error]: 2
+    at n.execute (~/.vscode-server/extensions/ms-toolsai.jupyter-2025.9.1-linux-x64/dist/extension.node.js:302:4958) {
+  ename: 'KeyError',
+  evalue: '2',
+  traceback: [
+    '\x1B[0;31m---------------------------------------------------------------------------\x1B[0m',
+    '\x1B[0;31mKeyError\x1B[0m                                  Traceback (most recent call last)',
+    'Cell \x1B[0;32mIn[67], line 1\x1B[0m\n' +
+      '\x1B[0;32m----> 1\x1B[0m \x1B[43mdataJson\x1B[49m\x1B[43m[\x1B[49m\x1B[38;5;241;43m0\x1B[39;49m\x1B[43m]\x1B[49m\x1B[43m[\x1B[49m\x1B[38;5;241;43m2\x1B[39;49m\x1B[43m]\x1B[49m\n',
+    '\x1B[0;31mKeyError\x1B[0m: 2'
+  ]
+}
+01:00:42.319 [warn] Cell completed with errors Iu [Error]: 'Quantidade em estoque'
+    at n.execute (~/.vscode-server/extensions/ms-toolsai.jupyter-2025.9.1-linux-x64/dist/extension.node.js:302:4958) {
+  ename: 'KeyError',
+  evalue: "'Quantidade em estoque'",
+  traceback: [
+    '\x1B[0;31m---------------------------------------------------------------------------\x1B[0m',
+    '\x1B[0;31mKeyError\x1B[0m                                  Traceback (most recent call last)',
+    'Cell \x1B[0;32mIn[68], line 1\x1B[0m\n' +
+      "\x1B[0;32m----> 1\x1B[0m \x1B[43mdataJson\x1B[49m\x1B[43m[\x1B[49m\x1B[38;5;241;43m0\x1B[39;49m\x1B[43m]\x1B[49m\x1B[43m[\x1B[49m\x1B[38;5;124;43m'\x1B[39;49m\x1B[38;5;124;43mQuantidade em estoque\x1B[39;49m\x1B[38;5;124;43m'\x1B[39;49m\x1B[43m]\x1B[49m\n",
+    "\x1B[0;31mKeyError\x1B[0m: 'Quantidade em estoque'"
+  ]
+}
+01:00:53.060 [warn] Cell completed with errors Iu [Error]: 'Quantidade em estoque'
+    at n.execute (~/.vscode-server/extensions/ms-toolsai.jupyter-2025.9.1-linux-x64/dist/extension.node.js:302:4958) {
+  ename: 'KeyError',
+  evalue: "'Quantidade em estoque'",
+  traceback: [
+    '\x1B[0;31m---------------------------------------------------------------------------\x1B[0m',
+    '\x1B[0;31mKeyError\x1B[0m                                  Traceback (most recent call last)',
+    'Cell \x1B[0;32mIn[92], line 1\x1B[0m\n' +
+      "\x1B[0;32m----> 1\x1B[0m \x1B[43mdataJson\x1B[49m\x1B[43m[\x1B[49m\x1B[38;5;241;43m0\x1B[39;49m\x1B[43m]\x1B[49m\x1B[43m[\x1B[49m\x1B[38;5;124;43m'\x1B[39;49m\x1B[38;5;124;43mQuantidade em estoque\x1B[39;49m\x1B[38;5;124;43m'\x1B[39;49m\x1B[43m]\x1B[49m\n",
+    "\x1B[0;31mKeyError\x1B[0m: 'Quantidade em estoque'"
+  ]
+}
+01:00:53.064 [warn] Cancel all remaining cells due to cancellation or failure in execution
+01:01:00.607 [warn] Cell completed with errors Iu [Error]: 'Quantidade em estoque'
+    at n.execute (~/.vscode-server/extensions/ms-toolsai.jupyter-2025.9.1-linux-x64/dist/extension.node.js:302:4958) {
+  ename: 'KeyError',
+  evalue: "'Quantidade em estoque'",
+  traceback: [
+    '\x1B[0;31m---------------------------------------------------------------------------\x1B[0m',
+    '\x1B[0;31mKeyError\x1B[0m                                  Traceback (most recent call last)',
+    'Cell \x1B[0;32mIn[116], line 1\x1B[0m\n' +
+      "\x1B[0;32m----> 1\x1B[0m \x1B[43mdataJson\x1B[49m\x1B[43m[\x1B[49m\x1B[38;5;241;43m0\x1B[39;49m\x1B[43m]\x1B[49m\x1B[43m[\x1B[49m\x1B[38;5;124;43m'\x1B[39;49m\x1B[38;5;124;43mQuantidade em estoque\x1B[39;49m\x1B[38;5;124;43m'\x1B[39;49m\x1B[43m]\x1B[49m\n",
+    "\x1B[0;31mKeyError\x1B[0m: 'Quantidade em estoque'"
+  ]
+}
+01:01:00.611 [warn] Cancel all remaining cells due to cancellation or failure in execution
+01:07:58.623 [info] Dispose Kernel '~/Documents/dataPipeline/notebooks/exploracao.ipynb' associated with '~/Documents/dataPipeline/notebooks/exploracao.ipynb'
+01:07:58.624 [info] Dispose Kernel '~/Documents/dataPipeline/notebooks/exploracao.ipynb' associated with '~/Documents/dataPipeline/notebooks/exploracao.ipynb'

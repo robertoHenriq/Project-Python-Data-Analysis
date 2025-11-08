@@ -1,0 +1,77 @@
+import json
+import csv
+
+class Datas:
+
+    def __init__(self, path, dataType):
+        self.path = path
+        self.dataType = dataType
+        self.data = self.readerDatas()
+        self.columnsNames = self.getColumns()
+        self.quantityLines = self.sizeData()
+
+    def readerJson(self):
+        with open(self.path, 'r') as file:
+            dataJson = json.load(file)
+
+        return dataJson
+
+    def readerCsv(self):
+        datacsv = []
+        with open(self.path, 'r')as file:
+            spamReader = csv.DictReader(file, delimiter=',')
+            #spamReader = csv.reader(file, delimiter=',') -> Lê o arquivo CSV como um dicionário, onde a primeira linha é usada como cabeçalho
+            for row in spamReader:
+                datacsv.append(row)
+        return datacsv
+
+    def readerDatas(self):
+        Datas = []
+        if self.dataType == 'json':
+            Datas = self.readerJson()
+            return Datas
+        elif self.dataType == 'csv':
+            Datas = self.readerCsv()
+            return Datas
+        elif self.dataType == 'list':
+            Datas = self.path
+            self.path = 'Lista sem origem, a mesma está na memória'
+            return Datas
+        else:
+            raise ValueError("Tipo de arquivo não suportado. Use 'json', 'csv' ou 'list'.")  
+    
+    def getColumns(path):
+        return list(path.data[0].keys())
+
+    def renameColumns(self, keyMapping):
+        newDatacsv = []
+
+        for oldDict in self.data:
+            dictTemp = {}
+            #dictTemp -> É um dicionário temporário que irá armazenar os dados com as novas chaves
+            for oldKey, value in oldDict.items():
+                dictTemp[keyMapping[oldKey]] = value  
+                #dictTemp[KeyMapping[oldKey]] -> Cria uma nova chave no dicionário temporário com o nome mapeado
+            newDatacsv.append(dictTemp)
+
+        self.data = newDatacsv
+        self.columnsNames = self.getColumns()
+
+    def sizeData(self):
+        return len(self.data)
+    
+    def join(list1, list2):
+        fusion = []
+        fusion.extend(list1.data)
+        fusion.extend(list2.data)    
+        return Datas(fusion, 'list')
+
+    def trand
+    
+    def writeCsv(self):
+        with open(self.path, 'w')as file:
+            writer = csv.DictWriter(file, fieldnames=self.columnsNames)
+            writer.writeheader()
+            writer.writerows(self.data) 
+
+     

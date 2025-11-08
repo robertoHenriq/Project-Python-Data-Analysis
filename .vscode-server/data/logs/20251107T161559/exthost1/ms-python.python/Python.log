@@ -1,0 +1,106 @@
+2025-11-07 16:16:26.658 [info] Native locator: Refresh started
+2025-11-07 16:16:27.446 [info] Skipping ActivatedEnv Detection:  process.env.VSCODE_CLI !== '1'
+2025-11-07 16:16:28.678 [info] > conda info --json
+2025-11-07 16:16:30.411 [info] > pyenv which python
+2025-11-07 16:16:30.412 [info] cwd: .
+2025-11-07 16:16:33.679 [info] Discover tests for workspace name: root - uri: /root/Documents/dataPipeline/scripts/FusionEnterprise.py
+2025-11-07 16:16:35.079 [info] Python interpreter path: /usr/bin/python3
+2025-11-07 16:16:36.463 [info] Native locator: Refresh finished in 21975 ms
+2025-11-07 16:16:40.676 [info] Starting Pylance language server.
+2025-11-07 16:16:42.849 [info] Discover tests for workspace name: root - uri: /root/Documents/dataPipeline/scripts/dataProcessing.py
+2025-11-07 16:16:46.066 [info] Discover tests for workspace name: root - uri: /root/Documents/dataPipeline/scripts/dataProcessing.py
+2025-11-07 16:18:59.142 [info] Discover tests for workspace name: root - uri: /root/Documents/dataPipeline/scripts/dataProcessing.py
+2025-11-07 16:19:01.732 [info] Discover tests for workspace name: root - uri: /root/Documents/dataPipeline/scripts/dataProcessing.py
+2025-11-07 16:22:40.240 [info] Discover tests for workspace name: root - uri: /root/Documents/dataPipeline/scripts/dataProcessing.py
+2025-11-07 16:36:47.723 [info] Discover tests for workspace name: root - uri: /root/Documents/dataPipeline/scripts/dataProcessing.py
+2025-11-07 18:18:56.676 [info] Discover tests for workspace name: root - uri: /root/Documents/dataPipeline/scripts/dataProcessing.py
+2025-11-07 18:20:33.476 [info] Native locator: Refresh started
+2025-11-07 18:20:50.030 [info] Native locator: Refresh finished in 16574 ms
+2025-11-07 18:40:54.145 [info] Discover tests for workspace name: root - uri: /root/Documents/dataPipeline/scripts/dataProcessing.py
+2025-11-07 18:43:15.137 [info] Discover tests for workspace name: root - uri: /root/Documents/dataPipeline/scripts/dataProcessing.py
+2025-11-07 18:43:26.490 [info] Discover tests for workspace name: root - uri: /root/Documents/dataPipeline/scripts/dataProcessing.py
+2025-11-07 18:43:31.546 [info] Discover tests for workspace name: root - uri: /root/Documents/dataPipeline/scripts/dataProcessing.py
+2025-11-07 18:47:41.728 [info] Discover tests for workspace name: root - uri: /root/Documents/dataPipeline/scripts/dataProcessing.py
+2025-11-07 18:48:54.105 [info] Discover tests for workspace name: root - uri: /root/Documents/dataPipeline/scripts/dataProcessing.py
+2025-11-07 18:49:06.807 [info] Discover tests for workspace name: root - uri: /root/Documents/dataPipeline/scripts/dataProcessing.py
+2025-11-07 18:49:28.346 [info] Discover tests for workspace name: root - uri: /root/Documents/dataPipeline/scripts/dataProcessing.py
+2025-11-07 18:49:40.233 [info] Discover tests for workspace name: root - uri: /root/Documents/dataPipeline/scripts/dataProcessing.py
+2025-11-07 18:49:50.469 [info] Discover tests for workspace name: root - uri: /root/Documents/dataPipeline/scripts/dataProcessing.py
+2025-11-07 18:50:05.164 [info] Discover tests for workspace name: root - uri: /root/Documents/dataPipeline/scripts/dataProcessing.py
+2025-11-07 18:50:19.891 [info] Discover tests for workspace name: root - uri: /root/Documents/dataPipeline/scripts/dataProcessing.py
+2025-11-07 18:50:43.409 [info] Discover tests for workspace name: root - uri: /root/Documents/dataPipeline/scripts/dataProcessing.py
+2025-11-07 18:56:27.539 [info] Discover tests for workspace name: root - uri: /root/Documents/dataPipeline/scripts/dataProcessing.py
+2025-11-07 19:03:58.494 [info] Discover tests for workspace name: root - uri: /root/Documents/dataPipeline/scripts/dataProcessing.py
+2025-11-07 19:04:39.263 [info] Discover tests for workspace name: root - uri: /root/Documents/dataPipeline/scripts/dataProcessing.py
+2025-11-07 19:05:06.979 [info] Discover tests for workspace name: root - uri: /root/Documents/dataPipeline/scripts/dataProcessing.py
+2025-11-07 19:05:52.237 [info] Discover tests for workspace name: root - uri: /root/Documents/dataPipeline/scripts/FusionEnterprise.py
+2025-11-07 19:06:24.495 [info] Discover tests for workspace name: root - uri: /root/Documents/dataPipeline/scripts/FusionEnterprise.py
+2025-11-07 19:06:38.698 [info] Discover tests for workspace name: root - uri: /root/Documents/dataPipeline/scripts/FusionEnterprise.py
+2025-11-07 19:06:58.795 [info] Discover tests for workspace name: root - uri: /root/Documents/dataPipeline/scripts/FusionEnterprise.py
+2025-11-07 19:07:04.351 [info] Discover tests for workspace name: root - uri: /root/Documents/dataPipeline/scripts/FusionEnterprise.py
+2025-11-07 19:07:09.836 [info] Discover tests for workspace name: root - uri: /root/Documents/dataPipeline/scripts/FusionEnterprise.py
+2025-11-07 19:07:16.348 [info] Discover tests for workspace name: root - uri: /root/Documents/dataPipeline/scripts/dataProcessing.py
+2025-11-07 19:07:19.662 [info] Discover tests for workspace name: root - uri: /root/Documents/dataPipeline/scripts/FusionEnterprise.py
+2025-11-07 19:07:48.911 [info] Discover tests for workspace name: root - uri: /root/Documents/dataPipeline/scripts/FusionEnterprise.py
+2025-11-07 19:07:57.386 [info] Discover tests for workspace name: root - uri: /root/Documents/dataPipeline/scripts/FusionEnterprise.py
+2025-11-07 19:08:00.178 [info] Send text to terminal: /usr/bin/python3 /root/Documents/dataPipeline/scripts/FusionEnterprise.py
+2025-11-07 19:25:59.207 [info] Discover tests for workspace name: root - uri: /root/Documents/dataPipeline/scripts/FusionEnterprise.py
+2025-11-07 19:26:07.988 [info] Discover tests for workspace name: root - uri: /root/Documents/dataPipeline/scripts/FusionEnterprise.py
+2025-11-07 19:26:27.844 [info] Discover tests for workspace name: root - uri: /root/Documents/dataPipeline/scripts/FusionEnterprise.py
+2025-11-07 19:27:08.493 [info] Discover tests for workspace name: root - uri: /root/Documents/dataPipeline/scripts/dataProcessing.py
+2025-11-07 19:27:10.912 [info] Discover tests for workspace name: root - uri: /root/Documents/dataPipeline/scripts/FusionEnterprise.py
+2025-11-07 19:27:52.804 [info] Discover tests for workspace name: root - uri: /root/Documents/dataPipeline/scripts/FusionEnterprise.py
+2025-11-07 19:28:02.722 [info] Discover tests for workspace name: root - uri: /root/Documents/dataPipeline/scripts/FusionEnterprise.py
+2025-11-07 19:28:03.334 [info] Discover tests for workspace name: root - uri: /root/Documents/dataPipeline/scripts/FusionEnterprise.py
+2025-11-07 19:29:12.532 [info] Discover tests for workspace name: root - uri: /root/Documents/dataPipeline/scripts/FusionEnterprise.py
+2025-11-07 19:29:20.750 [info] Discover tests for workspace name: root - uri: /root/Documents/dataPipeline/scripts/FusionEnterprise.py
+2025-11-07 19:30:01.853 [info] Discover tests for workspace name: root - uri: /root/Documents/dataPipeline/scripts/dataProcessing.py
+2025-11-07 19:30:26.297 [info] Discover tests for workspace name: root - uri: /root/Documents/dataPipeline/scripts/dataProcessing.py
+2025-11-07 19:33:48.909 [info] Discover tests for workspace name: root - uri: /root/Documents/dataPipeline/scripts/dataProcessing.py
+2025-11-07 19:35:59.880 [info] Discover tests for workspace name: root - uri: /root/Documents/dataPipeline/scripts/dataProcessing.py
+2025-11-07 20:06:34.307 [info] Discover tests for workspace name: root - uri: /root/Documents/dataPipeline/scripts/dataProcessing.py
+2025-11-07 20:17:52.814 [info] Discover tests for workspace name: root - uri: /root/Documents/dataPipeline/scripts/dataProcessing.py
+2025-11-07 20:18:16.817 [info] Discover tests for workspace name: root - uri: /root/Documents/dataPipeline/scripts/dataProcessing.py
+2025-11-07 20:18:18.540 [info] Discover tests for workspace name: root - uri: /root/Documents/dataPipeline/scripts/FusionEnterprise.py
+2025-11-07 20:18:19.471 [info] Discover tests for workspace name: root - uri: /root/Documents/dataPipeline/scripts/FusionEnterprise.py
+2025-11-07 20:19:31.304 [info] Discover tests for workspace name: root - uri: /root/Documents/dataPipeline/scripts/dataProcessing.py
+2025-11-07 20:20:21.801 [info] Discover tests for workspace name: root - uri: /root/Documents/dataPipeline/scripts/FusionEnterprise.py
+2025-11-07 20:20:30.128 [info] Discover tests for workspace name: root - uri: /root/Documents/dataPipeline/scripts/FusionEnterprise.py
+2025-11-07 20:21:26.690 [info] > /usr/bin/python3 ./.vscode-server/extensions/ms-python.python-2025.16.0-linux-x64/python_files/normalizeSelection.py
+2025-11-07 20:21:32.060 [info] Discover tests for workspace name: root - uri: /root/Documents/dataPipeline/scripts/FusionEnterprise.py
+2025-11-07 20:24:20.679 [info] Discover tests for workspace name: root - uri: /root/Documents/dataPipeline/scripts/FusionEnterprise.py
+2025-11-07 21:18:11.389 [info] Discover tests for workspace name: root - uri: /root/Documents/dataPipeline/scripts/dataProcessing.py
+2025-11-07 21:18:27.054 [info] Discover tests for workspace name: root - uri: /root/Documents/dataPipeline/scripts/dataProcessing.py
+2025-11-07 21:18:58.008 [info] Discover tests for workspace name: root - uri: /root/Documents/dataPipeline/scripts/dataProcessing.py
+2025-11-07 21:19:41.827 [info] Discover tests for workspace name: root - uri: /root/Documents/dataPipeline/scripts/dataProcessing.py
+2025-11-07 21:20:00.067 [info] Discover tests for workspace name: root - uri: /root/Documents/dataPipeline/scripts/dataProcessing.py
+2025-11-07 21:20:10.458 [info] Discover tests for workspace name: root - uri: /root/Documents/dataPipeline/scripts/dataProcessing.py
+2025-11-07 21:20:32.778 [info] Discover tests for workspace name: root - uri: /root/Documents/dataPipeline/scripts/dataProcessing.py
+2025-11-07 21:21:18.045 [info] Discover tests for workspace name: root - uri: /root/Documents/dataPipeline/scripts/dataProcessing.py
+2025-11-07 21:22:03.622 [info] Discover tests for workspace name: root - uri: /root/Documents/dataPipeline/scripts/dataProcessing.py
+2025-11-07 21:22:38.842 [info] Discover tests for workspace name: root - uri: /root/Documents/dataPipeline/scripts/dataProcessing.py
+2025-11-07 21:22:51.420 [info] Discover tests for workspace name: root - uri: /root/Documents/dataPipeline/scripts/dataProcessing.py
+2025-11-07 21:23:10.061 [info] Discover tests for workspace name: root - uri: /root/Documents/dataPipeline/scripts/dataProcessing.py
+2025-11-07 21:23:24.521 [info] Discover tests for workspace name: root - uri: /root/Documents/dataPipeline/scripts/dataProcessing.py
+2025-11-07 21:23:50.879 [info] Discover tests for workspace name: root - uri: /root/Documents/dataPipeline/scripts/dataProcessing.py
+2025-11-07 21:24:10.015 [info] Discover tests for workspace name: root - uri: /root/Documents/dataPipeline/scripts/dataProcessing.py
+2025-11-07 21:26:49.055 [info] Discover tests for workspace name: root - uri: /root/Documents/dataPipeline/scripts/dataProcessing.py
+2025-11-07 21:27:28.537 [info] Discover tests for workspace name: root - uri: /root/Documents/dataPipeline/scripts/dataProcessing.py
+2025-11-07 21:28:02.131 [info] Discover tests for workspace name: root - uri: /root/Documents/dataPipeline/scripts/FusionEnterprise.py
+2025-11-07 21:28:50.884 [info] Discover tests for workspace name: root - uri: /root/Documents/dataPipeline/scripts/FusionEnterprise.py
+2025-11-07 21:29:47.928 [info] Discover tests for workspace name: root - uri: /root/Documents/dataPipeline/scripts/FusionEnterprise.py
+2025-11-07 21:29:55.236 [info] Discover tests for workspace name: root - uri: /root/Documents/dataPipeline/scripts/FusionEnterprise.py
+2025-11-07 21:36:25.903 [info] Discover tests for workspace name: root - uri: /root/Documents/dataPipeline/scripts/dataProcessing.py
+2025-11-07 22:49:50.190 [info] Discover tests for workspace name: root - uri: /root/Documents/dataPipeline/scripts/FusionEnterprise.py
+2025-11-07 22:50:08.530 [info] Discover tests for workspace name: root - uri: /root/Documents/dataPipeline/scripts/dataProcessing.py
+2025-11-07 22:51:20.899 [info] Discover tests for workspace name: root - uri: /root/Documents/dataPipeline/scripts/FusionEnterprise.py
+2025-11-07 22:51:46.061 [info] Discover tests for workspace name: root - uri: /root/Documents/dataPipeline/scripts/FusionEnterprise.py
+2025-11-07 22:52:30.831 [info] Discover tests for workspace name: root - uri: /root/Documents/dataPipeline/scripts/FusionEnterprise.py
+2025-11-07 22:52:59.317 [info] Discover tests for workspace name: root - uri: /root/Documents/dataPipeline/scripts/FusionEnterprise.py
+2025-11-07 22:54:21.125 [info] Discover tests for workspace name: root - uri: /root/Documents/dataPipeline/scripts/dataProcessing.py
+2025-11-07 22:55:15.242 [info] Discover tests for workspace name: root - uri: /root/Documents/dataPipeline/scripts/FusionEnterprise.py
+2025-11-07 22:55:26.169 [info] Discover tests for workspace name: root - uri: /root/Documents/dataPipeline/scripts/FusionEnterprise.py
+2025-11-07 22:55:43.064 [info] Discover tests for workspace name: root - uri: /root/Documents/dataPipeline/scripts/FusionEnterprise.py
+2025-11-07 22:58:13.554 [info] Discover tests for workspace name: root - uri: /root/Documents/dataPipeline/scripts/FusionEnterprise.py
+2025-11-07 22:58:21.865 [info] Discover tests for workspace name: root - uri: /root/Documents/dataPipeline/scripts/FusionEnterprise.py
+2025-11-07 22:59:59.862 [info] Discover tests for workspace name: root - uri: /root/Documents/dataPipeline/scripts/dataProcessing.py

@@ -1,0 +1,52 @@
+2025-11-08 06:40:46.214 [info] [main] Log level: Info
+2025-11-08 06:40:46.214 [info] [main] Validating found git in: "git"
+2025-11-08 06:40:46.214 [info] [main] Using git "2.34.1" from "git"
+2025-11-08 06:40:46.214 [info] [Model][doInitialScan] Initial repository scan started
+2025-11-08 06:40:46.214 [info] > git rev-parse --show-toplevel [218ms]
+2025-11-08 06:40:46.256 [info] > git rev-parse --git-dir --git-common-dir --show-superproject-working-tree [1149ms]
+2025-11-08 06:40:46.284 [info] [Model][openRepository] Opened repository (path): /root
+2025-11-08 06:40:46.284 [info] [Model][openRepository] Opened repository (real path): /root
+2025-11-08 06:40:46.284 [info] [Model][openRepository] Opened repository (kind): repository
+2025-11-08 06:40:47.600 [info] > git rev-parse --show-toplevel [1277ms]
+2025-11-08 06:40:47.602 [info] > git config --get commit.template [1290ms]
+2025-11-08 06:40:47.693 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [20ms]
+2025-11-08 06:40:48.358 [info] > git check-ignore -v -z --stdin [86ms]
+2025-11-08 06:40:48.361 [info] > git rev-parse --show-toplevel [564ms]
+2025-11-08 06:40:48.382 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [65ms]
+2025-11-08 06:40:49.214 [info] > git rev-parse --show-toplevel [836ms]
+2025-11-08 06:40:49.513 [info] > git rev-parse --show-toplevel [169ms]
+2025-11-08 06:40:49.794 [info] > git rev-parse --show-toplevel [260ms]
+2025-11-08 06:40:49.943 [info] > git rev-parse --show-toplevel [130ms]
+2025-11-08 06:40:50.004 [info] > git rev-parse --show-toplevel [45ms]
+2025-11-08 06:40:50.459 [info] > git status -z -uall [2159ms] (cancelled)
+2025-11-08 06:40:50.460 [info] > git rev-parse --show-toplevel [438ms]
+2025-11-08 06:40:53.842 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [3409ms]
+2025-11-08 06:40:53.944 [info] > git config --get --local branch.main.vscode-merge-base [84ms]
+2025-11-08 06:40:53.945 [warning] [Git][config] git config failed: Failed to execute git
+2025-11-08 06:40:53.961 [info] > git rev-parse --show-toplevel [176ms]
+2025-11-08 06:40:53.963 [info] > git config --get commit.template [190ms]
+2025-11-08 06:40:54.005 [info] > git reflog main --grep-reflog=branch: Created from *. [44ms]
+2025-11-08 06:40:54.048 [info] > git rev-parse --show-toplevel [60ms]
+2025-11-08 06:40:54.072 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [41ms]
+2025-11-08 06:40:54.073 [info] > git symbolic-ref --short refs/remotes/origin/HEAD [56ms]
+2025-11-08 06:40:54.073 [info] fatal: ref refs/remotes/origin/HEAD is not a symbolic ref
+2025-11-08 06:40:54.073 [warning] [Repository][getDefaultBranch] Failed to get default branch details: Failed to execute git.
+2025-11-08 06:40:54.111 [info] > git rev-parse --show-toplevel [46ms]
+2025-11-08 06:40:54.116 [info] > git merge-base refs/heads/main refs/remotes/origin/main [24ms]
+2025-11-08 06:40:54.206 [info] > git rev-parse --show-toplevel [59ms]
+2025-11-08 06:40:54.208 [info] [Model][doInitialScan] Initial repository scan completed - repositories (1), closed repositories (0), parent repositories (0), unsafe repositories (0)
+2025-11-08 06:40:54.241 [info] > git diff --name-status -z --diff-filter=ADMR 002dec95b97020eed168cee818a3088bc4edc54f...refs/remotes/origin/main [108ms]
+2025-11-08 06:40:54.282 [info] > git show --textconv :Documents/dataPipeline/scripts/FusionEnterprise.py [58ms]
+2025-11-08 06:40:54.283 [info] > git ls-files --stage -- Documents/dataPipeline/scripts/FusionEnterprise.py [44ms]
+2025-11-08 06:40:54.313 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [117ms]
+2025-11-08 06:40:54.341 [info] > git hash-object -t tree /dev/null [28ms]
+2025-11-08 06:40:54.341 [warning] [GitFileSystemProvider][readFile] File not found - git:/root/Documents/dataPipeline/scripts/FusionEnterprise.py.git?%7B%22path%22%3A%22%2Froot%2FDocuments%2FdataPipeline%2Fscripts%2FFusionEnterprise.py%22%2C%22ref%22%3A%22%22%7D
+2025-11-08 06:40:54.349 [info] > git hash-object -t tree /dev/null [51ms]
+2025-11-08 06:40:54.349 [warning] [GitFileSystemProvider][stat] File not found - git:/root/Documents/dataPipeline/scripts/FusionEnterprise.py.git?%7B%22path%22%3A%22%2Froot%2FDocuments%2FdataPipeline%2Fscripts%2FFusionEnterprise.py%22%2C%22ref%22%3A%22%22%7D
+2025-11-08 06:40:54.679 [info] > git blame --root --incremental 002dec95b97020eed168cee818a3088bc4edc54f -- Documents/dataPipeline/scripts/FusionEnterprise.py [10ms]
+2025-11-08 06:40:54.679 [info] fatal: no such path Documents/dataPipeline/scripts/FusionEnterprise.py in 002dec95b97020eed168cee818a3088bc4edc54f
+2025-11-08 06:40:55.026 [info] > git status -z -uall [843ms] (cancelled)
+2025-11-08 06:43:41.435 [info] > git config --get commit.template [25ms]
+2025-11-08 06:43:41.449 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [19ms]
+2025-11-08 06:43:41.499 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [11ms]
+2025-11-08 06:43:46.552 [info] > git status -z -uall [5078ms] (cancelled)

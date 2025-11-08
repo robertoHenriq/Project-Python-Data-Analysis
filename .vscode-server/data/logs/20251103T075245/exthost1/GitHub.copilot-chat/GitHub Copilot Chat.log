@@ -1,0 +1,19 @@
+2025-11-03 07:53:08.631 [info] [GitExtensionServiceImpl] Initializing Git extension service.
+2025-11-03 07:53:08.631 [info] [GitExtensionServiceImpl] Successfully activated the vscode.git extension.
+2025-11-03 07:53:08.631 [info] [GitExtensionServiceImpl] Enablement state of the vscode.git extension: true.
+2025-11-03 07:53:08.631 [info] [GitExtensionServiceImpl] Successfully registered Git commit message provider.
+2025-11-03 07:53:11.343 [info] Logged in as robertoc4t
+2025-11-03 07:53:11.357 [info] Can't use the Electron fetcher in this environment.
+2025-11-03 07:53:11.357 [info] Using the Node fetch fetcher.
+2025-11-03 07:53:13.962 [info] Got Copilot token for robertoc4t
+2025-11-03 07:53:13.962 [info] Copilot Chat: 0.32.4, VS Code: 1.105.1
+2025-11-03 07:53:14.007 [info] activationBlocker from 'languageModelAccess' took for 3105ms
+2025-11-03 07:53:15.290 [info] copilot token chat_enabled: true, sku: free_limited_copilot
+2025-11-03 07:53:15.291 [info] GitHub.vscode-pull-request-github extension is not yet activated.
+2025-11-03 07:53:15.351 [info] Registering default platform agent...
+2025-11-03 07:53:15.355 [info] activationBlocker from 'conversationFeature' took for 4469ms
+2025-11-03 07:53:15.827 [info] Fetched model metadata in 4861ms f1602016-7dd3-4657-a20b-0b4ad02969aa
+2025-11-03 07:53:15.834 [info] Latest entry: ccreq:latest.copilotmd
+2025-11-03 07:53:15.836 [info] ccreq:f2938c4e.copilotmd | markdown
+2025-11-03 07:53:17.132 [info] Fetched auto model in 359ms.
+2025-11-03 07:53:19.019 [info] BYOK: Copilot Chat known models list fetched successfully.

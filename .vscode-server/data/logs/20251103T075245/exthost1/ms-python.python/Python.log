@@ -1,0 +1,29 @@
+2025-11-03 07:53:08.707 [info] Native locator: Refresh started
+2025-11-03 07:53:09.295 [info] Skipping ActivatedEnv Detection:  process.env.VSCODE_CLI !== '1'
+2025-11-03 07:53:09.296 [info] Skipping ActivatedEnv Detection:  process.env.VSCODE_CLI !== '1'
+2025-11-03 07:53:09.484 [info] > conda info --json
+2025-11-03 07:53:09.845 [info] > pyenv which python
+2025-11-03 07:53:09.845 [info] cwd: .
+2025-11-03 07:53:11.705 [info] > C:\Users\jose roberto\AppData\Local\Microsoft\WindowsApps\python3.11.exe -c "import sys;print(sys.executable)"
+2025-11-03 07:53:11.968 [error] Error: Command failed: C:\Users\jose roberto\AppData\Local\Microsoft\WindowsApps\python3.11.exe -c "import sys;print(sys.executable)"
+/bin/sh: 1: C:Usersjose: not found
+
+    at genericNodeError (node:internal/errors:983:15)
+    at wrappedFn (node:internal/errors:537:14)
+    at ChildProcess.exithandler (node:child_process:417:12)
+    at ChildProcess.emit (node:events:531:35)
+    at maybeClose (node:internal/child_process:1101:16)
+    at Socket.<anonymous> (node:internal/child_process:456:11)
+    at Socket.emit (node:events:519:28)
+    at Pipe.<anonymous> (node:net:346:12) {
+  code: 127,
+  killed: false,
+  signal: null,
+  cmd: 'C:\\Users\\jose roberto\\AppData\\Local\\Microsoft\\WindowsApps\\python3.11.exe -c "import sys;print(sys.executable)"'
+}
+2025-11-03 07:53:14.576 [info] > . ./venv/bin/activate && echo 'e8b39361-0157-4923-80e1-22d70d46dee6' && python ~/.vscode-server/extensions/ms-python.python-2025.16.0-linux-x64/python_files/printEnvVariables.py
+2025-11-03 07:53:14.576 [info] shell: bash
+2025-11-03 07:53:14.591 [info] > . ./venv/bin/activate && echo 'e8b39361-0157-4923-80e1-22d70d46dee6' && python ~/.vscode-server/extensions/ms-python.python-2025.16.0-linux-x64/python_files/printEnvVariables.py
+2025-11-03 07:53:14.591 [info] shell: bash
+2025-11-03 07:53:19.217 [info] Native locator: Refresh finished in 14371 ms
+2025-11-03 07:53:19.784 [info] Starting Pylance language server.

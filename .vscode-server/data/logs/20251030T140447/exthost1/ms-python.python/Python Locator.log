@@ -1,0 +1,95 @@
+2025-10-30 14:34:35.959 [info] Starting Python Locator /root/.vscode-server/extensions/ms-python.python-2025.16.0-linux-x64/python-env-tools/bin/pet server
+2025-10-30 14:34:37.975 [info] Discovered env: /root/Documents/dataPipeline/venv/bin/python
+2025-10-30 14:34:38.016 [info] Discovered env: /bin/python3
+2025-10-30 14:34:38.032 [info] Discovered env: /usr/bin/python3
+2025-10-30 14:34:44.879 [info] Locator Conda took 10.243725585s
+2025-10-30 14:34:44.879 [info] Locator Homebrew took 3.592842ms
+2025-10-30 14:34:44.879 [info] Locator LinuxGlobal took 327.57011ms
+2025-10-30 14:34:44.879 [info] Locator PipEnv took 5.916859ms
+2025-10-30 14:34:44.879 [info] Locator Pixi took 91.354µs
+2025-10-30 14:34:44.879 [info] Locator Poetry took 155.489129ms
+2025-10-30 14:34:44.879 [info] Locator PyEnv took 155.792536ms
+2025-10-30 14:34:44.880 [info] Locator Venv took 201.163µs
+2025-10-30 14:34:44.880 [info] Locator VirtualEnv took 2.229031ms
+2025-10-30 14:34:44.880 [info] Locator VirtualEnvWrapper took 5.242162ms
+2025-10-30 14:34:44.880 [info] Locator GlobalVirtualEnvs took 1.396061354s
+2025-10-30 14:34:44.880 [info] Locator Locators took 10.245327803s
+2025-10-30 14:34:44.880 [info] Locator Path took 1.804866329s
+2025-10-30 14:34:44.880 [info] Locator Workspaces took 432.379951ms
+2025-10-30 14:34:44.881 [info] Refresh completed in 10245ms
+2025-10-30 14:35:29.242 [info] Discovered env: /bin/python3
+2025-10-30 14:35:29.244 [info] Discovered env: /usr/bin/python3
+2025-10-30 14:35:29.438 [info] Discovered env: /root/Documents/dataPipeline/venv/bin/python
+2025-10-30 14:35:38.031 [info] Locator Conda took 8.827859117s
+2025-10-30 14:35:38.031 [info] Locator Homebrew took 161.547µs
+2025-10-30 14:35:38.031 [info] Locator LinuxGlobal took 29.927079ms
+2025-10-30 14:35:38.031 [info] Locator PipEnv took 83.829µs
+2025-10-30 14:35:38.031 [info] Locator Pixi took 69.352µs
+2025-10-30 14:35:38.031 [info] Locator Poetry took 148.645993ms
+2025-10-30 14:35:38.031 [info] Locator PyEnv took 126.822976ms
+2025-10-30 14:35:38.031 [info] Locator Venv took 53.903µs
+2025-10-30 14:35:38.031 [info] Locator VirtualEnv took 182.253µs
+2025-10-30 14:35:38.031 [info] Locator VirtualEnvWrapper took 56.217µs
+2025-10-30 14:35:38.031 [info] Locator GlobalVirtualEnvs took 1.233706548s
+2025-10-30 14:35:38.031 [info] Locator Locators took 8.829274023s
+2025-10-30 14:35:38.031 [info] Locator Path took 1.606690367s
+2025-10-30 14:35:38.031 [info] Locator Workspaces took 373.866505ms
+2025-10-30 14:35:38.032 [info] Refresh completed in 8829ms
+2025-10-30 14:38:47.458 [info] Discovered env: /usr/bin/python3
+2025-10-30 14:38:47.459 [info] Discovered env: /bin/python3
+2025-10-30 14:38:47.661 [info] Discovered env: /root/Documents/dataPipeline/venv/bin/python
+2025-10-30 14:38:49.043 [info] Resolved Python Environment /root/Documents/dataPipeline/venv/bin/python
+2025-10-30 14:38:57.577 [info] Locator Conda took 11.395671082s
+2025-10-30 14:38:57.578 [info] Locator Homebrew took 268.421µs
+2025-10-30 14:38:57.578 [info] Locator LinuxGlobal took 29.731954ms
+2025-10-30 14:38:57.578 [info] Locator PipEnv took 58.912µs
+2025-10-30 14:38:57.578 [info] Locator Pixi took 95.592µs
+2025-10-30 14:38:57.578 [info] Locator Poetry took 146.275043ms
+2025-10-30 14:38:57.578 [info] Locator PyEnv took 116.461519ms
+2025-10-30 14:38:57.578 [info] Locator Venv took 121.411µs
+2025-10-30 14:38:57.579 [info] Locator VirtualEnv took 77.117µs
+2025-10-30 14:38:57.579 [info] Locator VirtualEnvWrapper took 296.941µs
+2025-10-30 14:38:57.579 [info] Locator GlobalVirtualEnvs took 1.139510571s
+2025-10-30 14:38:57.580 [info] Locator Locators took 11.399298557s
+2025-10-30 14:38:57.580 [info] Locator Path took 1.725859747s
+2025-10-30 14:38:57.580 [info] Locator Workspaces took 241.758181ms
+2025-10-30 14:38:57.580 [info] Refresh completed in 11399ms
+2025-10-30 14:39:12.292 [warning] Could not find Python executable in "/root/Documents/dataPipeline/venv/lib/python3.10/site-packages/parso/python"
+2025-10-30 14:39:12.396 [error] Failed to execute Python to resolve info "/root/Documents/dataPipeline/venv/lib/python3.10/site-packages/parso/python": Permission denied (os error 13)
+2025-10-30 14:39:12.396 [warning] Unknown Python Env "/root/Documents/dataPipeline/venv/lib/python3.10/site-packages/parso/python"
+2025-10-30 14:39:12.397 [error] Failed to resolve env "/root/Documents/dataPipeline/venv/lib/python3.10/site-packages/parso/python"
+2025-10-30 14:39:20.756 [info] Resolved Python Environment /root/Documents/dataPipeline/venv/bin/python
+2025-10-30 17:01:23.554 [info] Resolved Python Environment /root/Documents/dataPipeline/venv/bin/python
+2025-10-30 17:13:11.447 [info] Resolved Python Environment /root/Documents/dataPipeline/venv/bin/python
+2025-10-30 17:13:40.739 [info] Resolved Python Environment /root/Documents/dataPipeline/venv/bin/python
+2025-10-30 17:14:34.496 [info] Resolved Python Environment /root/Documents/dataPipeline/venv/bin/python
+2025-10-31 00:28:51.399 [info] Resolved Python Environment /root/Documents/dataPipeline/venv/bin/python
+2025-10-31 00:31:53.354 [info] Resolved Python Environment /root/Documents/dataPipeline/venv/bin/python
+2025-10-31 00:32:58.344 [info] Resolved Python Environment /root/Documents/dataPipeline/venv/bin/python
+2025-10-31 00:33:52.364 [info] Resolved Python Environment /root/Documents/dataPipeline/venv/bin/python
+2025-10-31 00:34:25.079 [info] Resolved Python Environment /root/Documents/dataPipeline/venv/bin/python
+2025-10-31 00:34:56.329 [info] Resolved Python Environment /root/Documents/dataPipeline/venv/bin/python
+2025-10-31 00:40:04.126 [info] Resolved Python Environment /root/Documents/dataPipeline/venv/bin/python
+2025-10-31 00:40:44.804 [info] Resolved Python Environment /root/Documents/dataPipeline/venv/bin/python
+2025-10-31 00:41:57.932 [info] Resolved Python Environment /root/Documents/dataPipeline/venv/bin/python
+2025-10-31 00:42:58.301 [info] Resolved Python Environment /root/Documents/dataPipeline/venv/bin/python
+2025-10-31 00:43:28.901 [info] Resolved Python Environment /root/Documents/dataPipeline/venv/bin/python
+2025-10-31 00:44:18.528 [info] Resolved Python Environment /root/Documents/dataPipeline/venv/bin/python
+2025-10-31 00:45:21.392 [info] Resolved Python Environment /root/Documents/dataPipeline/venv/bin/python
+2025-10-31 00:45:53.595 [info] Resolved Python Environment /root/Documents/dataPipeline/venv/bin/python
+2025-10-31 00:46:26.985 [info] Resolved Python Environment /root/Documents/dataPipeline/venv/bin/python
+2025-10-31 00:48:43.043 [info] Resolved Python Environment /root/Documents/dataPipeline/venv/bin/python
+2025-10-31 00:50:26.787 [info] Resolved Python Environment /root/Documents/dataPipeline/venv/bin/python
+2025-10-31 00:51:03.439 [info] Resolved Python Environment /root/Documents/dataPipeline/venv/bin/python
+2025-10-31 00:52:53.082 [info] Resolved Python Environment /root/Documents/dataPipeline/venv/bin/python
+2025-10-31 00:53:36.088 [info] Resolved Python Environment /root/Documents/dataPipeline/venv/bin/python
+2025-10-31 00:54:28.346 [info] Resolved Python Environment /root/Documents/dataPipeline/venv/bin/python
+2025-10-31 00:54:58.529 [info] Resolved Python Environment /root/Documents/dataPipeline/venv/bin/python
+2025-10-31 00:55:32.813 [info] Resolved Python Environment /root/Documents/dataPipeline/venv/bin/python
+2025-10-31 00:56:26.296 [info] Resolved Python Environment /root/Documents/dataPipeline/venv/bin/python
+2025-10-31 01:00:09.516 [info] Resolved Python Environment /root/Documents/dataPipeline/venv/bin/python
+2025-10-31 01:00:50.413 [info] Resolved Python Environment /root/Documents/dataPipeline/venv/bin/python
+2025-10-31 01:02:13.268 [info] Resolved Python Environment /root/Documents/dataPipeline/venv/bin/python
+2025-10-31 01:03:10.102 [info] Resolved Python Environment /root/Documents/dataPipeline/venv/bin/python
+2025-10-31 01:04:18.626 [info] Resolved Python Environment /root/Documents/dataPipeline/venv/bin/python
+2025-10-31 01:06:42.444 [info] Resolved Python Environment /root/Documents/dataPipeline/venv/bin/python

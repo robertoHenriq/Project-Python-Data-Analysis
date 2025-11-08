@@ -1,0 +1,9 @@
+--2025-10-29 15:02:55--  https://update.code.visualstudio.com/commit:97dec172d3256f8ca4bfb2143f3f76b503ca0534/server-linux-x64/stable
+Resolving update.code.visualstudio.com (update.code.visualstudio.com)... 13.107.246.34, 13.107.213.34
+Connecting to update.code.visualstudio.com (update.code.visualstudio.com)|13.107.246.34|:443... failed: Connection timed out.
+Connecting to update.code.visualstudio.com (update.code.visualstudio.com)|13.107.213.34|:443... failed: Connection timed out.
+Retrying.
+
+--2025-10-29 15:07:23--  (try: 2)  https://update.code.visualstudio.com/commit:97dec172d3256f8ca4bfb2143f3f76b503ca0534/server-linux-x64/stable
+Connecting to update.code.visualstudio.com (update.code.visualstudio.com)|13.107.246.34|:443... failed: Connection timed out.
+Connecting to update.code.visualstudio.com (update.code.visualstudio.com)|13.107.213.34|:443... 

@@ -1,0 +1,63 @@
+2025-11-07 16:16:36.460 [info] (Client) Pylance client (2025.9.1) started with python extension (2025.16.0)
+2025-11-07 16:16:40.572 [info] (930) Server root directory: file:///root/.vscode-server/extensions/ms-python.vscode-pylance-2025.9.1/dist
+2025-11-07 16:16:40.574 [info] (930) Pylance language server 2025.9.1 (pyright version 1.1.406, commit 20aa20a1) starting
+2025-11-07 16:16:40.594 [info] (930) Starting service instance "root" for workspace "/root"
+2025-11-07 16:16:41.620 [info] (930) Setting environmentName for service "root": "3.10.12 (global)"
+2025-11-07 16:16:41.621 [info] (930) Setting pythonPath for service "root": "/usr/bin/python3"
+2025-11-07 16:16:41.622 [info] (930) No include entries specified; assuming /root
+2025-11-07 16:16:41.624 [info] (930) Auto-excluding **/node_modules
+2025-11-07 16:16:41.625 [info] (930) Auto-excluding **/__pycache__
+2025-11-07 16:16:41.626 [info] (930) Auto-excluding **/.*
+2025-11-07 16:16:41.718 [info] (930) Assuming Python version 3.10.12.final.0
+2025-11-07 16:16:42.167 [info] (930) Auto-excluding /root/Documents/dataPipeline/venv
+2025-11-07 16:16:42.167 [info] (930) Auto-excluding /root/pipeline_dados/venv
+2025-11-07 16:16:42.167 [info] (930) Found 2 source files
+2025-11-07 16:16:42.169 [info] (930) Settings have not changed. Skipping update.
+2025-11-07 16:16:43.039 [info] (930) Starting Mcp server id:5488 ...
+2025-11-07 16:16:45.467 [info] (930) BG: Priority queue background worker(2) root directory: file:///root/.vscode-server/extensions/ms-python.vscode-pylance-2025.9.1/dist
+2025-11-07 16:16:45.471 [info] (930) BG: Priority queue background worker(2) started
+2025-11-07 16:16:46.352 [info] (930) BG: Indexer background runner(3) root directory: file:///root/.vscode-server/extensions/ms-python.vscode-pylance-2025.9.1/dist (index)
+2025-11-07 16:16:46.352 [info] (930) BG: Indexing(3) started
+2025-11-07 16:16:49.507 [info] (930) BG: [IDX(3)] Long operation: scan packages file:///root (2725ms)
+2025-11-07 16:16:49.508 [info] (930) BG: scanned(3) 97 files over 1 exec env
+2025-11-07 16:16:51.188 [info] (930) BG: indexed(3) 97 files over 1 exec env
+2025-11-07 16:16:51.280 [info] (930) BG: Indexing finished(3).
+2025-11-07 18:20:35.656 [info] (930) Starting service instance "root" for workspace "/root"
+2025-11-07 18:20:37.254 [info] (930) Setting environmentName for service "root": "3.10.12 (global)"
+2025-11-07 18:20:37.255 [info] (930) Setting pythonPath for service "root": "/bin/python3"
+2025-11-07 18:20:37.255 [info] (930) No include entries specified; assuming /root
+2025-11-07 18:20:37.255 [info] (930) Auto-excluding **/node_modules
+2025-11-07 18:20:37.255 [info] (930) Auto-excluding **/__pycache__
+2025-11-07 18:20:37.255 [info] (930) Auto-excluding **/.*
+2025-11-07 18:20:37.530 [info] (930) Assuming Python version 3.10.12.final.0
+2025-11-07 18:20:43.414 [info] (930) BG: Priority queue background worker(5) root directory: file:///root/.vscode-server/extensions/ms-python.vscode-pylance-2025.9.1/dist
+2025-11-07 18:20:43.425 [info] (930) BG: Priority queue background worker(5) started
+2025-11-07 18:20:43.762 [info] (930) Auto-excluding /root/Documents/dataPipeline/venv
+2025-11-07 18:20:43.766 [info] (930) Auto-excluding /root/pipeline_dados/venv
+2025-11-07 18:20:43.769 [info] (930) Found 2 source files
+2025-11-07 18:20:45.021 [info] (930) BG: Indexer background runner(6) root directory: file:///root/.vscode-server/extensions/ms-python.vscode-pylance-2025.9.1/dist (index)
+2025-11-07 18:20:45.022 [info] (930) BG: Indexing(6) started
+2025-11-07 18:20:46.637 [info] (930) BG: scanned(6) 97 files over 1 exec env
+2025-11-07 18:20:47.749 [info] (930) BG: indexed(6) 97 files over 1 exec env
+2025-11-07 18:20:47.833 [info] (930) BG: Indexing finished(6).
+2025-11-07 18:47:39.340 [info] (930) Starting service instance "<default>" for workspace ""
+2025-11-07 18:47:40.450 [info] (930) Setting environmentName for service "<default>": "3.10.12 (global)"
+2025-11-07 18:47:40.452 [info] (930) Setting pythonPath for service "<default>": "/usr/bin/python3"
+2025-11-07 18:47:40.454 [info] (930) No include entries specified; assuming /<default workspace root>
+2025-11-07 18:47:40.456 [info] (930) Auto-excluding **/node_modules
+2025-11-07 18:47:40.457 [info] (930) Auto-excluding **/__pycache__
+2025-11-07 18:47:40.457 [info] (930) Auto-excluding **/.*
+2025-11-07 18:47:40.588 [info] (930) Assuming Python version 3.10.12.final.0
+2025-11-07 18:47:41.029 [error] (930) File or directory "/<default workspace root>" does not exist.
+2025-11-07 18:47:41.029 [info] (930) No source files found.
+2025-11-07 18:47:41.495 [info] (930) BG: Priority queue background worker(8) root directory: file:///root/.vscode-server/extensions/ms-python.vscode-pylance-2025.9.1/dist
+2025-11-07 18:47:41.506 [info] (930) BG: Priority queue background worker(8) started
+2025-11-07 19:30:28.987 [info] (930) 
+*Warning*: Pylance failed to parse docstring at offset 0
+
+ Outputting literal text instead.
+2025-11-07 19:37:31.702 [info] (930) 
+*Warning*: Pylance failed to parse docstring at offset 0
+
+ Outputting literal text instead.
+2025-11-07 20:06:34.799 [info] (930) BG: [BG(1)] Long operation: SemanticTokens delta previousResultId:1762554628377 at file:///root/Documents/dataPipeline/scripts/dataProcessing.py (2344ms)

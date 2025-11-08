@@ -1,0 +1,180 @@
+Visual Studio Code (1.105.1, wsl, desktop)
+Jupyter Extension Version: 2025.9.1.
+Python Extension Version: 2025.16.0.
+Python Environment Extension Version: 1.10.0.
+Pylance Extension Version: 2025.9.1.
+Platform: linux (x64).
+Home = /root
+Temp Storage folder ~/.vscode-server/data/User/globalStorage/ms-toolsai.jupyter/version-2025.9.1
+Workspace folder ~/Documents/dataPipeline
+13:51:45.412 [info] Starting Kernel (Python Path: ~/Documents/dataPipeline/venv/bin/python, Venv, 3.10.12) for '~/Documents/dataPipeline/notebooks/exploracao.ipynb' (disableUI=true)
+13:51:49.268 [info] Process Execution: ~/Documents/dataPipeline/venv/bin/python -m pip list
+13:51:49.287 [info] Process Execution: ~/Documents/dataPipeline/venv/bin/python -c "import ipykernel; print(ipykernel.__version__); print("5dc3a68c-e34e-4080-9c3e-2a532b2ccb4d"); print(ipykernel.__file__)"
+13:51:49.310 [info] Process Execution: ~/Documents/dataPipeline/venv/bin/python -m ipykernel_launcher --f=/run/user/0/jupyter/runtime/kernel-v3718a621e77a1d9da56b9094bb62665dd4e802c82.json
+    > cwd: ~/Documents/dataPipeline/notebooks
+13:51:53.995 [info] Kernel successfully started
+13:51:54.022 [info] Process Execution: ~/Documents/dataPipeline/venv/bin/python ~/.vscode-server/extensions/ms-toolsai.jupyter-2025.9.1-linux-x64/pythonFiles/printJupyterDataDir.py
+13:55:33.828 [warn] Cell completed with errors Iu [Error]: name 'patthcsv' is not defined
+    at n.execute (~/.vscode-server/extensions/ms-toolsai.jupyter-2025.9.1-linux-x64/dist/extension.node.js:302:4958) {
+  ename: 'NameError',
+  evalue: "name 'patthcsv' is not defined",
+  traceback: [
+    '\x1B[0;31m---------------------------------------------------------------------------\x1B[0m',
+    '\x1B[0;31mNameError\x1B[0m                                 Traceback (most recent call last)',
+    'Cell \x1B[0;32mIn[1], line 2\x1B[0m\n' +
+      '\x1B[1;32m      1\x1B[0m datacsv2 \x1B[38;5;241m=\x1B[39m []\n' +
+      "\x1B[0;32m----> 2\x1B[0m \x1B[38;5;28;01mwith\x1B[39;00m \x1B[38;5;28mopen\x1B[39m(\x1B[43mpatthcsv\x1B[49m, \x1B[38;5;124m'\x1B[39m\x1B[38;5;124mr\x1B[39m\x1B[38;5;124m'\x1B[39m) \x1B[38;5;28;01mas\x1B[39;00m file:\n" +
+      "\x1B[1;32m      3\x1B[0m     spamReader \x1B[38;5;241m=\x1B[39m csv\x1B[38;5;241m.\x1B[39mDictReader(file, delimiter \x1B[38;5;241m=\x1B[39m \x1B[38;5;124m'\x1B[39m\x1B[38;5;124m,\x1B[39m\x1B[38;5;124m'\x1B[39m)\n" +
+      '\x1B[1;32m      4\x1B[0m     \x1B[38;5;28;01mfor\x1B[39;00m row \x1B[38;5;129;01min\x1B[39;00m spamReader:\n',
+    "\x1B[0;31mNameError\x1B[0m: name 'patthcsv' is not defined"
+  ]
+}
+13:56:09.370 [warn] Cell completed with errors Iu [Error]: name 'patthcsv' is not defined
+    at n.execute (~/.vscode-server/extensions/ms-toolsai.jupyter-2025.9.1-linux-x64/dist/extension.node.js:302:4958) {
+  ename: 'NameError',
+  evalue: "name 'patthcsv' is not defined",
+  traceback: [
+    '\x1B[0;31m---------------------------------------------------------------------------\x1B[0m',
+    '\x1B[0;31mNameError\x1B[0m                                 Traceback (most recent call last)',
+    'Cell \x1B[0;32mIn[2], line 2\x1B[0m\n' +
+      '\x1B[1;32m      1\x1B[0m datacsv2 \x1B[38;5;241m=\x1B[39m []\n' +
+      "\x1B[0;32m----> 2\x1B[0m \x1B[38;5;28;01mwith\x1B[39;00m \x1B[38;5;28mopen\x1B[39m(\x1B[43mpatthcsv\x1B[49m, \x1B[38;5;124m'\x1B[39m\x1B[38;5;124mr\x1B[39m\x1B[38;5;124m'\x1B[39m) \x1B[38;5;28;01mas\x1B[39;00m file:\n" +
+      "\x1B[1;32m      3\x1B[0m     spamReader \x1B[38;5;241m=\x1B[39m csv\x1B[38;5;241m.\x1B[39mDictReader(file, delimiter \x1B[38;5;241m=\x1B[39m \x1B[38;5;124m'\x1B[39m\x1B[38;5;124m,\x1B[39m\x1B[38;5;124m'\x1B[39m)\n" +
+      '\x1B[1;32m      4\x1B[0m     \x1B[38;5;28;01mfor\x1B[39;00m row \x1B[38;5;129;01min\x1B[39;00m spamReader:\n',
+    "\x1B[0;31mNameError\x1B[0m: name 'patthcsv' is not defined"
+  ]
+}
+13:56:15.426 [warn] Cell completed with errors Iu [Error]: name 'pathcsv' is not defined
+    at n.execute (~/.vscode-server/extensions/ms-toolsai.jupyter-2025.9.1-linux-x64/dist/extension.node.js:302:4958) {
+  ename: 'NameError',
+  evalue: "name 'pathcsv' is not defined",
+  traceback: [
+    '\x1B[0;31m---------------------------------------------------------------------------\x1B[0m',
+    '\x1B[0;31mNameError\x1B[0m                                 Traceback (most recent call last)',
+    'Cell \x1B[0;32mIn[3], line 2\x1B[0m\n' +
+      '\x1B[1;32m      1\x1B[0m datacsv2 \x1B[38;5;241m=\x1B[39m []\n' +
+      "\x1B[0;32m----> 2\x1B[0m \x1B[38;5;28;01mwith\x1B[39;00m \x1B[38;5;28mopen\x1B[39m(\x1B[43mpathcsv\x1B[49m, \x1B[38;5;124m'\x1B[39m\x1B[38;5;124mr\x1B[39m\x1B[38;5;124m'\x1B[39m) \x1B[38;5;28;01mas\x1B[39;00m file:\n" +
+      "\x1B[1;32m      3\x1B[0m     spamReader \x1B[38;5;241m=\x1B[39m csv\x1B[38;5;241m.\x1B[39mDictReader(file, delimiter \x1B[38;5;241m=\x1B[39m \x1B[38;5;124m'\x1B[39m\x1B[38;5;124m,\x1B[39m\x1B[38;5;124m'\x1B[39m)\n" +
+      '\x1B[1;32m      4\x1B[0m     \x1B[38;5;28;01mfor\x1B[39;00m row \x1B[38;5;129;01min\x1B[39;00m spamReader:\n',
+    "\x1B[0;31mNameError\x1B[0m: name 'pathcsv' is not defined"
+  ]
+}
+14:06:30.081 [warn] Cell completed with errors Iu [Error]: 'dict_keys' object is not subscriptable
+    at n.execute (~/.vscode-server/extensions/ms-toolsai.jupyter-2025.9.1-linux-x64/dist/extension.node.js:302:4958) {
+  ename: 'TypeError',
+  evalue: "'dict_keys' object is not subscriptable",
+  traceback: [
+    '\x1B[0;31m---------------------------------------------------------------------------\x1B[0m',
+    '\x1B[0;31mTypeError\x1B[0m                                 Traceback (most recent call last)',
+    'Cell \x1B[0;32mIn[34], line 1\x1B[0m\n' +
+      '\x1B[0;32m----> 1\x1B[0m \x1B[43mdataJson\x1B[49m\x1B[43m[\x1B[49m\x1B[38;5;241;43m0\x1B[39;49m\x1B[43m]\x1B[49m\x1B[38;5;241;43m.\x1B[39;49m\x1B[43mkeys\x1B[49m\x1B[43m(\x1B[49m\x1B[43m)\x1B[49m\x1B[43m[\x1B[49m\x1B[38;5;241;43m1\x1B[39;49m\x1B[43m]\x1B[49m\n',
+    "\x1B[0;31mTypeError\x1B[0m: 'dict_keys' object is not subscriptable"
+  ]
+}
+14:22:34.479 [warn] Cell completed with errors Iu [Error]: invalid syntax (954335.py, line 1)
+    at n.execute (~/.vscode-server/extensions/ms-toolsai.jupyter-2025.9.1-linux-x64/dist/extension.node.js:302:4958) {
+  ename: 'SyntaxError',
+  evalue: 'invalid syntax (954335.py, line 1)',
+  traceback: [
+    '\x1B[0;36m  Cell \x1B[0;32mIn[45], line 1\x1B[0;36m\x1B[0m\n' +
+      "\x1B[0;31m    keyMapping = ('Nome do Item': 'Nome do Produto', )\x1B[0m\n" +
+      '\x1B[0m                                ^\x1B[0m\n' +
+      '\x1B[0;31mSyntaxError\x1B[0m\x1B[0;31m:\x1B[0m invalid syntax\n'
+  ]
+}
+14:24:37.936 [info] Too many pending requests 1 for kernel 42e050d0-1127-42b5-a1c1-bafba82f7f9d, waiting for it to be ready.
+14:24:38.088 [info] Too many pending requests 1 for kernel 42e050d0-1127-42b5-a1c1-bafba82f7f9d, waiting for it to be ready.
+14:25:47.788 [warn] Cell completed with errors Iu [Error]: incomplete input (732166046.py, line 2)
+    at n.execute (~/.vscode-server/extensions/ms-toolsai.jupyter-2025.9.1-linux-x64/dist/extension.node.js:302:4958) {
+  ename: 'SyntaxError',
+  evalue: 'incomplete input (732166046.py, line 2)',
+  traceback: [
+    '\x1B[0;36m  Cell \x1B[0;32mIn[48], line 2\x1B[0;36m\x1B[0m\n' +
+      '\x1B[0;31m    for oldDict in datacsv:\x1B[0m\n' +
+      '\x1B[0m                           ^\x1B[0m\n' +
+      '\x1B[0;31mSyntaxError\x1B[0m\x1B[0;31m:\x1B[0m incomplete input\n'
+  ]
+}
+01:17:15.715 [warn] Cell completed with errors Iu [Error]: 'Nome da Loja'
+    at n.execute (~/.vscode-server/extensions/ms-toolsai.jupyter-2025.9.1-linux-x64/dist/extension.node.js:302:4958) {
+  ename: 'KeyError',
+  evalue: "'Nome da Loja'",
+  traceback: [
+    '\x1B[0;31m---------------------------------------------------------------------------\x1B[0m',
+    '\x1B[0;31mKeyError\x1B[0m                                  Traceback (most recent call last)',
+    'Cell \x1B[0;32mIn[52], line 5\x1B[0m\n' +
+      '\x1B[1;32m      3\x1B[0m     dictTemp \x1B[38;5;241m=\x1B[39m {}\n' +
+      '\x1B[1;32m      4\x1B[0m     \x1B[38;5;28;01mfor\x1B[39;00m oldKey, value \x1B[38;5;129;01min\x1B[39;00m oldDict\x1B[38;5;241m.\x1B[39mitems():\n' +
+      '\x1B[0;32m----> 5\x1B[0m         dictTemp[\x1B[43mkeyMapping\x1B[49m\x1B[43m[\x1B[49m\x1B[43moldKey\x1B[49m\x1B[43m]\x1B[49m] \x1B[38;5;241m=\x1B[39m value  \n' +
+      '\x1B[1;32m      6\x1B[0m     newDatacsv\x1B[38;5;241m.\x1B[39mappend(dictTemp)\n' +
+      '\x1B[1;32m      8\x1B[0m newDatacsv[\x1B[38;5;241m0\x1B[39m]  \n',
+    "\x1B[0;31mKeyError\x1B[0m: 'Nome da Loja'"
+  ]
+}
+01:18:04.827 [warn] Cell completed with errors Iu [Error]: 'Nome da Loja'
+    at n.execute (~/.vscode-server/extensions/ms-toolsai.jupyter-2025.9.1-linux-x64/dist/extension.node.js:302:4958) {
+  ename: 'KeyError',
+  evalue: "'Nome da Loja'",
+  traceback: [
+    '\x1B[0;31m---------------------------------------------------------------------------\x1B[0m',
+    '\x1B[0;31mKeyError\x1B[0m                                  Traceback (most recent call last)',
+    'Cell \x1B[0;32mIn[87], line 5\x1B[0m\n' +
+      '\x1B[1;32m      3\x1B[0m     dictTemp \x1B[38;5;241m=\x1B[39m {}\n' +
+      '\x1B[1;32m      4\x1B[0m     \x1B[38;5;28;01mfor\x1B[39;00m oldKey, value \x1B[38;5;129;01min\x1B[39;00m oldDict\x1B[38;5;241m.\x1B[39mitems():\n' +
+      '\x1B[0;32m----> 5\x1B[0m         dictTemp[\x1B[43mkeyMapping\x1B[49m\x1B[43m[\x1B[49m\x1B[43moldKey\x1B[49m\x1B[43m]\x1B[49m] \x1B[38;5;241m=\x1B[39m value  \n' +
+      '\x1B[1;32m      6\x1B[0m     newDatacsv\x1B[38;5;241m.\x1B[39mappend(dictTemp)\n' +
+      '\x1B[1;32m      8\x1B[0m newDatacsv[\x1B[38;5;241m0\x1B[39m]  \n',
+    "\x1B[0;31mKeyError\x1B[0m: 'Nome da Loja'"
+  ]
+}
+01:18:04.831 [warn] Cancel all remaining cells due to cancellation or failure in execution
+01:22:21.452 [info] Disposing request as the cell (-1) was deleted ~/Documents/dataPipeline/notebooks/exploracao.ipynb
+01:23:15.380 [warn] Cell completed with errors Iu [Error]: name 'dadoscsv' is not defined
+    at n.execute (~/.vscode-server/extensions/ms-toolsai.jupyter-2025.9.1-linux-x64/dist/extension.node.js:302:4958) {
+  ename: 'NameError',
+  evalue: "name 'dadoscsv' is not defined",
+  traceback: [
+    '\x1B[0;31m---------------------------------------------------------------------------\x1B[0m',
+    '\x1B[0;31mNameError\x1B[0m                                 Traceback (most recent call last)',
+    'Cell \x1B[0;32mIn[91], line 1\x1B[0m\n' +
+      '\x1B[0;32m----> 1\x1B[0m \x1B[43mdadoscsv\x1B[49m[\x1B[38;5;241m0\x1B[39m]\n',
+    "\x1B[0;31mNameError\x1B[0m: name 'dadoscsv' is not defined"
+  ]
+}
+01:24:20.620 [warn] Cell completed with errors Iu [Error]: 0
+    at n.execute (~/.vscode-server/extensions/ms-toolsai.jupyter-2025.9.1-linux-x64/dist/extension.node.js:302:4958) {
+  ename: 'KeyError',
+  evalue: '0',
+  traceback: [
+    '\x1B[0;31m---------------------------------------------------------------------------\x1B[0m',
+    '\x1B[0;31mKeyError\x1B[0m                                  Traceback (most recent call last)',
+    'Cell \x1B[0;32mIn[93], line 1\x1B[0m\n' +
+      '\x1B[0;32m----> 1\x1B[0m \x1B[43mkeyMapping\x1B[49m\x1B[43m[\x1B[49m\x1B[38;5;241;43m0\x1B[39;49m\x1B[43m]\x1B[49m\n',
+    '\x1B[0;31mKeyError\x1B[0m: 0'
+  ]
+}
+01:24:50.741 [warn] Cell completed with errors Iu [Error]: 0
+    at n.execute (~/.vscode-server/extensions/ms-toolsai.jupyter-2025.9.1-linux-x64/dist/extension.node.js:302:4958) {
+  ename: 'KeyError',
+  evalue: '0',
+  traceback: [
+    '\x1B[0;31m---------------------------------------------------------------------------\x1B[0m',
+    '\x1B[0;31mKeyError\x1B[0m                                  Traceback (most recent call last)',
+    'Cell \x1B[0;32mIn[94], line 1\x1B[0m\n' +
+      '\x1B[0;32m----> 1\x1B[0m \x1B[43mkeyMapping\x1B[49m\x1B[43m[\x1B[49m\x1B[38;5;241;43m0\x1B[39;49m\x1B[43m]\x1B[49m[\x1B[38;5;241m1\x1B[39m]\n',
+    '\x1B[0;31mKeyError\x1B[0m: 0'
+  ]
+}
+01:25:26.651 [warn] Cell completed with errors Iu [Error]: 'Nome do Produto'
+    at n.execute (~/.vscode-server/extensions/ms-toolsai.jupyter-2025.9.1-linux-x64/dist/extension.node.js:302:4958) {
+  ename: 'KeyError',
+  evalue: "'Nome do Produto'",
+  traceback: [
+    '\x1B[0;31m---------------------------------------------------------------------------\x1B[0m',
+    '\x1B[0;31mKeyError\x1B[0m                                  Traceback (most recent call last)',
+    'Cell \x1B[0;32mIn[96], line 1\x1B[0m\n' +
+      "\x1B[0;32m----> 1\x1B[0m \x1B[43mkeyMapping\x1B[49m\x1B[43m[\x1B[49m\x1B[38;5;124;43m'\x1B[39;49m\x1B[38;5;124;43mNome do Produto\x1B[39;49m\x1B[38;5;124;43m'\x1B[39;49m\x1B[43m]\x1B[49m\n",
+    "\x1B[0;31mKeyError\x1B[0m: 'Nome do Produto'"
+  ]
+}
+02:00:34.229 [info] Dispose Kernel '~/Documents/dataPipeline/notebooks/exploracao.ipynb' associated with '~/Documents/dataPipeline/notebooks/exploracao.ipynb'

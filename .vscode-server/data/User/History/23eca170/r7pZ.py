@@ -1,0 +1,77 @@
+import json
+import csv
+
+class Datas:
+
+    def __init__(self, data):
+        self.data = data
+        self.columnsNames = self.__getColumns()
+        self.quantityLines = self.sizeData()
+
+    def __readerJson(path):
+        with open(path, 'r') as file:
+            dataJson = json.load(file)
+
+        return dataJson
+
+    def __readerCsv(path):
+        datacsv = []
+        with open(path, 'r')as file:
+            spamReader = csv.DictReader(file, delimiter=',')
+            #spamReader = csv.reader(file, delimiter=',') -> Lê o arquivo CSV como um dicionário, onde a primeira linha é usada como cabeçalho
+            for row in spamReader:
+                datacsv.append(row)
+        return datacsv
+
+    @classmethod
+    def readerDatas(cls, dataType, path):
+        Datas = []
+        if dataType == 'json':
+            Datas = cls.__readerJson(path)
+            return cls(Datas)
+        elif dataType == 'csv':
+            Datas = cls.__readerCsv(path)
+            return cls(Datas)
+    
+    def __getColumns(path):
+        return list(path.data[0].keys())
+
+    def renameColumns(cls, keyMapping):
+        newDatacsv = []
+
+        for oldDict in cls.data:
+            dictTemp = {}
+            #dictTemp -> É um dicionário temporário que irá armazenar os dados com as novas chaves
+            for oldKey, value in oldDict.items():
+                dictTemp[keyMapping[oldKey]] = value  
+                #dictTemp[KeyMapping[oldKey]] -> Cria uma nova chave no dicionário temporário com o nome mapeado
+            newDatacsv.append(dictTemp)
+
+        cls.data = newDatacsv
+        cls.columnsNames = cls.__getColumns()
+
+    def sizeData(self):
+        return len(self.data)
+    
+    def join(list1, list2):
+        fusion = []
+        fusion.extend(list1.data)
+        fusion.extend(list2.data)    
+        return Datas(fusion, 'list')
+
+    def __transformDatasInTable(self):
+        table = [self.columnsNames]
+        for row in self.data:
+           linha = []
+           for columns in self.columnsNames:
+               linha.append(row.get(columns, 'Indisponível'))
+        return table
+    
+    def writeDatas(self, path):
+        table = self.__transformDatasInTable()
+
+        with open(path, 'w')as file:
+            writer = csv.writer(file)
+            writer.writerows(table) 
+
+     

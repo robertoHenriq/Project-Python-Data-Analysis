@@ -1,0 +1,13 @@
+2025-10-29 15:33:43.610 [info] Extension host with pid 2156 started
+2025-10-29 15:33:43.611 [info] Skipping acquiring lock for /root/.config/Code/User/workspaceStorage/1c1d021d2313949e2da5a07281b1ca94.
+2025-10-29 15:33:43.705 [info] ExtensionService#_doActivateExtension vscode.github-authentication, startup: false, activationEvent: 'onAuthenticationRequest:github'
+2025-10-29 15:33:43.788 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2025-10-29 15:33:44.002 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*'
+2025-10-29 15:33:44.057 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2025-10-29 15:33:44.331 [info] Eager extensions activated
+2025-10-29 15:33:44.662 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2025-10-29 15:33:44.678 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2025-10-29 15:33:51.853 [info] ExtensionService#_doActivateExtension vscode.git, startup: false, activationEvent: 'api', root cause: vscode.github
+2025-10-29 15:34:13.313 [info] ExtensionService#_doActivateExtension ms-vscode-remote.remote-wsl, startup: false, activationEvent: 'onStartupFinished'
+2025-10-29 15:35:59.415 [info] Extension host terminating: renderer closed the MessagePort
+2025-10-29 15:35:59.496 [info] Extension host with pid 2156 exiting with code 0

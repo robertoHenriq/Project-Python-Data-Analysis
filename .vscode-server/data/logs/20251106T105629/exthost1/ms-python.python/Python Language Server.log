@@ -1,0 +1,143 @@
+2025-11-06 10:57:07.581 [info] (Client) Pylance client (2025.9.1) started with python extension (2025.16.0)
+2025-11-06 10:57:11.754 [info] (998) Server root directory: file:///root/.vscode-server/extensions/ms-python.vscode-pylance-2025.9.1/dist
+2025-11-06 10:57:11.757 [info] (998) Pylance language server 2025.9.1 (pyright version 1.1.406, commit 20aa20a1) starting
+2025-11-06 10:57:11.777 [info] (998) Starting service instance "root" for workspace "/root"
+2025-11-06 10:57:12.133 [info] Failed to get active python environment for MCP server. MCP server disabled.
+2025-11-06 10:57:12.447 [info] (998) Setting environmentName for service "root": "C:\Users\jose roberto\AppData\Local\Microsoft\WindowsApps\python3.11.exe"
+2025-11-06 10:57:12.449 [info] (998) No include entries specified; assuming /root
+2025-11-06 10:57:12.452 [info] (998) Auto-excluding **/node_modules
+2025-11-06 10:57:12.453 [info] (998) Auto-excluding **/__pycache__
+2025-11-06 10:57:12.454 [info] (998) Auto-excluding **/.*
+2025-11-06 10:57:12.662 [info] (998) Assuming Python version 3.10.12.final.0
+2025-11-06 10:57:12.956 [info] (998) Auto-excluding /root/Documents/dataPipeline/venv
+2025-11-06 10:57:12.956 [info] (998) Auto-excluding /root/pipeline_dados/venv
+2025-11-06 10:57:12.958 [info] (998) No source files found.
+2025-11-06 10:57:13.136 [info] (998) Settings have not changed. Skipping update.
+2025-11-06 10:57:13.199 [info] (998) Starting service instance "root" for workspace "/root"
+2025-11-06 10:57:13.342 [info] (998) Setting environmentName for service "root": "C:\Users\jose roberto\AppData\Local\Microsoft\WindowsApps\python3.11.exe"
+2025-11-06 10:57:13.344 [info] (998) Setting pythonPath for service "root": "/root"
+2025-11-06 10:57:13.345 [info] (998) No include entries specified; assuming /root
+2025-11-06 10:57:13.346 [info] (998) Auto-excluding **/node_modules
+2025-11-06 10:57:13.348 [info] (998) Auto-excluding **/__pycache__
+2025-11-06 10:57:13.348 [info] (998) Auto-excluding **/.*
+2025-11-06 10:57:15.093 [info] (998) Auto-excluding /root/Documents/dataPipeline/venv
+2025-11-06 10:57:15.097 [info] (998) Auto-excluding /root/pipeline_dados/venv
+2025-11-06 10:57:15.099 [info] (998) No source files found.
+2025-11-06 10:57:16.721 [info] (998) BG: Priority queue background worker(2) root directory: file:///root/.vscode-server/extensions/ms-python.vscode-pylance-2025.9.1/dist
+2025-11-06 10:57:16.727 [info] (998) BG: Priority queue background worker(2) started
+2025-11-06 10:57:17.656 [info] (998) BG: Priority queue background worker(4) root directory: file:///root/.vscode-server/extensions/ms-python.vscode-pylance-2025.9.1/dist
+2025-11-06 10:57:17.664 [info] (998) BG: Priority queue background worker(4) started
+2025-11-06 10:57:17.844 [info] (998) BG: Indexer background runner(5) root directory: file:///root/.vscode-server/extensions/ms-python.vscode-pylance-2025.9.1/dist (index)
+2025-11-06 10:57:17.845 [info] (998) BG: Indexing(5) started
+2025-11-06 10:57:18.340 [info] (998) BG: scanned(5) 0 files over 1 exec env
+2025-11-06 10:57:18.653 [info] (998) BG: Indexing finished(5).
+2025-11-06 10:57:27.667 [info] (998) Starting service instance "root" for workspace "/root"
+2025-11-06 10:57:27.726 [info] Failed to get active python environment for MCP server. MCP server disabled.
+2025-11-06 10:57:28.032 [info] (998) Setting environmentName for service "root": "C:\Users\jose roberto\AppData\Local\Microsoft\WindowsApps\python3.11.exe"
+2025-11-06 10:57:28.035 [info] (998) Setting pythonPath for service "root": "/bin/python3"
+2025-11-06 10:57:28.036 [info] (998) No include entries specified; assuming /root
+2025-11-06 10:57:28.038 [info] (998) Auto-excluding **/node_modules
+2025-11-06 10:57:28.039 [info] (998) Auto-excluding **/__pycache__
+2025-11-06 10:57:28.041 [info] (998) Auto-excluding **/.*
+2025-11-06 10:57:28.233 [info] (998) Assuming Python version 3.10.12.final.0
+2025-11-06 10:57:28.718 [info] (998) Auto-excluding /root/Documents/dataPipeline/venv
+2025-11-06 10:57:28.725 [info] (998) Auto-excluding /root/pipeline_dados/venv
+2025-11-06 10:57:28.726 [info] (998) No source files found.
+2025-11-06 10:57:30.903 [info] (998) BG: Priority queue background worker(7) root directory: file:///root/.vscode-server/extensions/ms-python.vscode-pylance-2025.9.1/dist
+2025-11-06 10:57:30.907 [info] (998) BG: Priority queue background worker(7) started
+2025-11-06 10:57:31.506 [info] (998) BG: Indexer background runner(8) root directory: file:///root/.vscode-server/extensions/ms-python.vscode-pylance-2025.9.1/dist (refresh)
+2025-11-06 10:57:31.507 [info] (998) BG: Indexing(8) started
+2025-11-06 10:57:33.996 [info] (998) BG: [BG(6)] Long operation: analyzing: file:///root/Documents/dataPipeline/notebooks/exploracao.ipynb.py#W3sdnNjb2RlLXJlbW90ZQ%3D%3D (2374ms)
+2025-11-06 10:57:34.323 [info] (998) BG: [IDX(8)] Long operation: scan packages file:///root (2534ms)
+2025-11-06 10:57:34.324 [info] (998) BG: scanned(8) 71 files over 1 exec env
+2025-11-06 10:57:37.271 [info] (998) BG: [IDX(8)] Long operation: index execution environment file:///root (2389ms)
+2025-11-06 10:57:37.313 [info] (998) BG: [IDX(8)] Long operation: index packages file:///root (2457ms)
+2025-11-06 10:57:37.313 [info] (998) BG: indexed(8) 71 files over 1 exec env
+2025-11-06 10:57:37.379 [info] (998) BG: Indexing finished(8).
+2025-11-06 10:58:21.417 [info] (998) Starting service instance "<default>" for workspace ""
+2025-11-06 10:58:21.570 [info] (998) Setting environmentName for service "<default>": "C:\Users\jose roberto\AppData\Local\Microsoft\WindowsApps\python3.11.exe"
+2025-11-06 10:58:21.570 [info] (998) No include entries specified; assuming /<default workspace root>
+2025-11-06 10:58:21.571 [info] (998) Auto-excluding **/node_modules
+2025-11-06 10:58:21.571 [info] (998) Auto-excluding **/__pycache__
+2025-11-06 10:58:21.571 [info] (998) Auto-excluding **/.*
+2025-11-06 10:58:21.658 [info] (998) Assuming Python version 3.10.12.final.0
+2025-11-06 10:58:21.822 [error] (998) File or directory "/<default workspace root>" does not exist.
+2025-11-06 10:58:21.822 [info] (998) No source files found.
+2025-11-06 10:58:23.845 [info] (998) BG: Priority queue background worker(10) root directory: file:///root/.vscode-server/extensions/ms-python.vscode-pylance-2025.9.1/dist
+2025-11-06 10:58:23.854 [info] (998) BG: Priority queue background worker(10) started
+2025-11-06 11:12:05.513 [info] (998) 
+*Warning*: Pylance failed to parse docstring at offset 0
+
+ Outputting literal text instead.
+2025-11-06 11:12:05.977 [info] (998) 
+*Warning*: Pylance failed to parse docstring at offset 0
+
+ Outputting literal text instead.
+2025-11-06 11:12:06.341 [info] (998) 
+*Warning*: Pylance failed to parse docstring at offset 0
+
+ Outputting literal text instead.
+2025-11-06 11:12:10.391 [info] (998) 
+*Warning*: Pylance failed to parse docstring at offset 0
+
+ Outputting literal text instead.
+2025-11-06 11:12:10.392 [info] (998) 
+*Warning*: Pylance failed to parse docstring at offset 0
+
+ Outputting literal text instead.
+2025-11-06 11:15:39.328 [info] (998) 
+*Warning*: Pylance failed to parse docstring at offset 0
+
+ Outputting literal text instead.
+2025-11-06 11:41:42.189 [info] (998) BG: Indexer background runner(11) root directory: file:///root/.vscode-server/extensions/ms-python.vscode-pylance-2025.9.1/dist (index)
+2025-11-06 11:41:42.192 [info] (998) BG: Indexing(11) started
+2025-11-06 11:41:44.322 [info] (998) BG: scanned(11) 97 files over 1 exec env
+2025-11-06 11:41:44.842 [info] (998) BG: indexed(11) 97 files over 1 exec env
+2025-11-06 11:41:44.919 [info] (998) BG: Indexing finished(11).
+2025-11-06 11:43:44.619 [info] (998) Starting Mcp server id:4105 ...
+2025-11-06 11:43:44.834 [info] (998) Setting environmentName for service "<default>": "3.10.12 (global)"
+2025-11-06 11:43:44.836 [info] (998) Setting pythonPath for service "<default>": "/usr/bin/python3"
+2025-11-06 11:43:44.838 [info] (998) No include entries specified; assuming /<default workspace root>
+2025-11-06 11:43:44.838 [info] (998) Auto-excluding **/node_modules
+2025-11-06 11:43:44.838 [info] (998) Auto-excluding **/__pycache__
+2025-11-06 11:43:44.838 [info] (998) Auto-excluding **/.*
+2025-11-06 11:43:44.948 [info] (998) Assuming Python version 3.10.12.final.0
+2025-11-06 11:43:45.175 [error] (998) File or directory "/<default workspace root>" does not exist.
+2025-11-06 11:43:45.175 [info] (998) No source files found.
+2025-11-06 11:43:45.268 [info] (998) Setting environmentName for service "root": "3.10.12 (global)"
+2025-11-06 11:43:45.270 [info] (998) Setting pythonPath for service "root": "/usr/bin/python3"
+2025-11-06 11:43:45.270 [info] (998) No include entries specified; assuming /root
+2025-11-06 11:43:45.270 [info] (998) Auto-excluding **/node_modules
+2025-11-06 11:43:45.271 [info] (998) Auto-excluding **/__pycache__
+2025-11-06 11:43:45.272 [info] (998) Auto-excluding **/.*
+2025-11-06 11:43:45.454 [info] (998) Assuming Python version 3.10.12.final.0
+2025-11-06 11:43:46.385 [info] (998) Auto-excluding /root/Documents/dataPipeline/venv
+2025-11-06 11:43:46.386 [info] (998) Auto-excluding /root/pipeline_dados/venv
+2025-11-06 11:43:46.386 [info] (998) Found 1 source file
+2025-11-06 11:43:46.495 [info] (998) Setting environmentName for service "root": "3.10.12 (global)"
+2025-11-06 11:43:46.496 [info] (998) Setting pythonPath for service "root": "/bin/python3"
+2025-11-06 11:43:46.496 [info] (998) No include entries specified; assuming /root
+2025-11-06 11:43:46.496 [info] (998) Auto-excluding **/node_modules
+2025-11-06 11:43:46.496 [info] (998) Auto-excluding **/__pycache__
+2025-11-06 11:43:46.496 [info] (998) Auto-excluding **/.*
+2025-11-06 11:43:46.684 [info] (998) Assuming Python version 3.10.12.final.0
+2025-11-06 11:43:47.327 [info] (998) Auto-excluding /root/Documents/dataPipeline/venv
+2025-11-06 11:43:47.327 [info] (998) Auto-excluding /root/pipeline_dados/venv
+2025-11-06 11:43:47.327 [info] (998) Found 1 source file
+2025-11-06 11:43:51.009 [info] (998) BG: [BG(1)] Long operation: indexing: file:///root/Documents/dataPipeline/scripts/FusionEnterprise.py (2567ms)
+2025-11-06 11:43:51.254 [info] (998) BG: [BG(6)] Long operation: indexing: file:///root/Documents/dataPipeline/notebooks/exploracao.ipynb.py#pylancePrefixCell (2446ms)
+2025-11-06 11:43:52.948 [info] (998) BG: [BG(1)] Long operation: checking: file:///root/Documents/dataPipeline/scripts/FusionEnterprise.py (3188ms)
+2025-11-06 11:43:52.949 [info] (998) BG: [BG(1)] Long operation: analyzing: file:///root/Documents/dataPipeline/scripts/FusionEnterprise.py (3192ms)
+2025-11-06 11:43:56.955 [info] (998) BG: [BG(6)] Long operation: checking: vscode-notebook-cell://wsl%2Bubuntu-22.04/root/Documents/dataPipeline/notebooks/exploracao.ipynb#Y105sdnNjb2RlLXJlbW90ZQ%3D%3D (4897ms)
+2025-11-06 11:43:56.956 [info] (998) BG: [BG(6)] Long operation: analyzing: file:///root/Documents/dataPipeline/notebooks/exploracao.ipynb.py#Y105sdnNjb2RlLXJlbW90ZQ%3D%3D (4897ms)
+2025-11-06 11:43:56.956 [info] (998) BG: [BG(6)] Long operation: analyzing: file:///root/Documents/dataPipeline/notebooks/exploracao.ipynb.py#X11sdnNjb2RlLXJlbW90ZQ%3D%3D (6249ms)
+2025-11-06 11:43:56.967 [info] (998) BG: Indexer background runner(12) root directory: file:///root/.vscode-server/extensions/ms-python.vscode-pylance-2025.9.1/dist (index)
+2025-11-06 11:43:56.967 [info] (998) BG: Indexing(12) started
+2025-11-06 11:43:59.707 [info] (998) BG: scanned(12) 97 files over 1 exec env
+2025-11-06 11:43:59.569 [info] (998) BG: indexed(12) 97 files over 1 exec env
+2025-11-06 11:44:00.883 [info] (998) BG: scanned(12) 71 files over 1 exec env
+2025-11-06 11:44:01.959 [info] (998) BG: indexed(12) 71 files over 1 exec env
+2025-11-06 11:44:02.847 [info] (998) BG: Indexing finished(12).
+2025-11-06 11:46:12.133 [info] (998) Settings have not changed. Skipping update.
+2025-11-06 11:46:12.134 [info] (998) Settings have not changed. Skipping update.
+2025-11-06 11:46:12.134 [info] (998) Settings have not changed. Skipping update.

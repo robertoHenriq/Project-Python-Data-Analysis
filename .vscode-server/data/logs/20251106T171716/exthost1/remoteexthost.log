@@ -1,0 +1,114 @@
+2025-11-06 17:17:22.649 [info] Extension host with pid 554 started
+2025-11-06 17:17:22.692 [info] Lock '/root/.vscode-server/data/User/workspaceStorage/4ed0fc5d1da1e8293deafd1a216f3aaf/vscode.lock': Lock acquired.
+2025-11-06 17:17:23.687 [info] ExtensionService#_doActivateExtension mechatroner.rainbow-csv, startup: false, activationEvent: 'onLanguage:plaintext'
+2025-11-06 17:17:23.700 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2025-11-06 17:17:23.703 [info] ExtensionService#_doActivateExtension GitHub.copilot-chat, startup: false, activationEvent: 'onChatParticipant:github.copilot.editsAgent'
+2025-11-06 17:17:23.704 [info] ExtensionService#_doActivateExtension ms-python.python, startup: false, activationEvent: 'onLanguage:python', root cause: ms-python.debugpy
+2025-11-06 17:17:23.706 [info] ExtensionService#_doActivateExtension ms-python.vscode-pylance, startup: false, activationEvent: 'onLanguage:python'
+2025-11-06 17:17:23.708 [info] ExtensionService#_doActivateExtension ms-python.vscode-python-envs, startup: false, activationEvent: 'onLanguage:python'
+2025-11-06 17:17:23.712 [info] ExtensionService#_doActivateExtension ms-toolsai.jupyter, startup: false, activationEvent: 'onLanguage:python'
+2025-11-06 17:17:26.875 [error] PendingMigrationError: navigator is now a global in nodejs, please see https://aka.ms/vscode-extensions/navigator for additional info on this error.
+    at get (file:///root/.vscode-server/bin/7d842fb85a0275a4a8e4d7e040d2625abbf7f084/out/vs/workbench/api/node/extensionHostProcess.js:393:6610)
+    at /root/.vscode-server/extensions/github.copilot-chat-0.32.4/dist/extension.js:101:48518
+    at /root/.vscode-server/extensions/github.copilot-chat-0.32.4/dist/extension.js:1:263
+    at /root/.vscode-server/extensions/github.copilot-chat-0.32.4/dist/extension.js:101:50911
+    at /root/.vscode-server/extensions/github.copilot-chat-0.32.4/dist/extension.js:1:263
+    at /root/.vscode-server/extensions/github.copilot-chat-0.32.4/dist/extension.js:101:51982
+    at /root/.vscode-server/extensions/github.copilot-chat-0.32.4/dist/extension.js:1:263
+    at /root/.vscode-server/extensions/github.copilot-chat-0.32.4/dist/extension.js:101:54168
+    at /root/.vscode-server/extensions/github.copilot-chat-0.32.4/dist/extension.js:1:263
+    at /root/.vscode-server/extensions/github.copilot-chat-0.32.4/dist/extension.js:121:2591
+    at /root/.vscode-server/extensions/github.copilot-chat-0.32.4/dist/extension.js:1:263
+    at /root/.vscode-server/extensions/github.copilot-chat-0.32.4/dist/extension.js:122:2671
+    at /root/.vscode-server/extensions/github.copilot-chat-0.32.4/dist/extension.js:1:263
+    at /root/.vscode-server/extensions/github.copilot-chat-0.32.4/dist/extension.js:122:9338
+    at /root/.vscode-server/extensions/github.copilot-chat-0.32.4/dist/extension.js:1:263
+    at /root/.vscode-server/extensions/github.copilot-chat-0.32.4/dist/extension.js:124:21442
+    at /root/.vscode-server/extensions/github.copilot-chat-0.32.4/dist/extension.js:1:263
+    at /root/.vscode-server/extensions/github.copilot-chat-0.32.4/dist/extension.js:124:25509
+    at /root/.vscode-server/extensions/github.copilot-chat-0.32.4/dist/extension.js:1:263
+    at /root/.vscode-server/extensions/github.copilot-chat-0.32.4/dist/extension.js:124:27007
+    at /root/.vscode-server/extensions/github.copilot-chat-0.32.4/dist/extension.js:1:263
+    at Object.<anonymous> (/root/.vscode-server/extensions/github.copilot-chat-0.32.4/dist/extension.js:914:5320)
+    at Module._compile (node:internal/modules/cjs/loader:1706:14)
+    at Object..js (node:internal/modules/cjs/loader:1839:10)
+    at Module.load (node:internal/modules/cjs/loader:1441:32)
+    at Function.<anonymous> (node:internal/modules/cjs/loader:1263:12)
+    at e._load (file:///root/.vscode-server/bin/7d842fb85a0275a4a8e4d7e040d2625abbf7f084/out/vs/workbench/api/node/extensionHostProcess.js:393:5983)
+    at t._load (file:///root/.vscode-server/bin/7d842fb85a0275a4a8e4d7e040d2625abbf7f084/out/vs/workbench/api/node/extensionHostProcess.js:211:22649)
+    at r._load (file:///root/.vscode-server/bin/7d842fb85a0275a4a8e4d7e040d2625abbf7f084/out/vs/workbench/api/node/extensionHostProcess.js:203:26694)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:237:24)
+    at Module.<anonymous> (node:internal/modules/cjs/loader:1463:12)
+    at require (node:internal/modules/helpers:147:16)
+    at SZ.Cb (file:///root/.vscode-server/bin/7d842fb85a0275a4a8e4d7e040d2625abbf7f084/out/vs/workbench/api/node/extensionHostProcess.js:242:1253)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+2025-11-06 17:17:29.811 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+2025-11-06 17:17:29.860 [info] ExtensionService#_doActivateExtension vscode.terminal-suggest, startup: false, activationEvent: 'onTerminalShellIntegration:*'
+2025-11-06 17:17:31.064 [info] ExtensionService#_doActivateExtension ms-toolsai.jupyter-renderers, startup: false, activationEvent: 'api', root cause: ms-toolsai.jupyter
+2025-11-06 17:17:31.180 [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+2025-11-06 17:17:31.181 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2025-11-06 17:17:32.046 [info] Eager extensions activated
+2025-11-06 17:17:32.047 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2025-11-06 17:17:32.049 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2025-11-06 17:17:32.051 [info] ExtensionService#_doActivateExtension GitHub.copilot, startup: false, activationEvent: 'onStartupFinished'
+2025-11-06 17:17:39.670 [info] ExtensionService#_doActivateExtension ms-python.debugpy, startup: false, activationEvent: 'onLanguage:python'
+2025-11-06 17:17:42.227 [error] Error: chatParticipant must be declared in package.json: claude-code
+    at sqt.$registerAgent (vscode-file://vscode-app/c:/Users/jose%20roberto/AppData/Local/Programs/Microsoft%20VS%20Code/resources/app/out/vs/workbench/workbench.desktop.main.js:509:5906)
+2025-11-06 17:17:48.709 [warning] DiagnosticCollection with name 'Pylance' does already exist.
+2025-11-06 17:17:48.741 [warning] DiagnosticCollection with name 'Pylance' does already exist.
+2025-11-06 17:17:50.677 [info] ExtensionService#_doActivateExtension vscode.tunnel-forwarding, startup: false, activationEvent: 'onTunnel'
+2025-11-06 18:03:41.325 [info] ExtensionService#_doActivateExtension vscode.ipynb, startup: false, activationEvent: 'onNotebookSerializer:jupyter-notebook'
+2025-11-06 18:03:42.335 [info] ExtensionService#_doActivateExtension ms-toolsai.vscode-jupyter-cell-tags, startup: false, activationEvent: 'onNotebook:jupyter-notebook'
+2025-11-06 18:03:42.335 [info] ExtensionService#_doActivateExtension ms-toolsai.vscode-jupyter-slideshow, startup: false, activationEvent: 'onNotebook:jupyter-notebook'
+2025-11-06 18:06:44.621 [info] ExtensionService#_doActivateExtension vscode.npm, startup: false, activationEvent: 'onTerminalQuickFixRequest:ms-vscode.npm-command'
+2025-11-06 18:06:51.038 [info] ExtensionService#_doActivateExtension vscode.configuration-editing, startup: false, activationEvent: 'onLanguage:json'
+2025-11-06 18:06:51.039 [info] ExtensionService#_doActivateExtension vscode.extension-editing, startup: false, activationEvent: 'onLanguage:json'
+2025-11-06 18:06:51.040 [info] ExtensionService#_doActivateExtension vscode.json-language-features, startup: false, activationEvent: 'onLanguage:json'
+2025-11-06 18:06:51.041 [info] ExtensionService#_doActivateExtension ZainChen.json, startup: false, activationEvent: 'onLanguage:json'
+2025-11-07 02:08:05.728 [info] Extension host terminating: received terminate message from renderer
+2025-11-07 02:08:05.766 [info] Lock '/root/.vscode-server/data/User/workspaceStorage/4ed0fc5d1da1e8293deafd1a216f3aaf/vscode.lock': Marking the lockfile as scheduled to be released in 6000 ms.
+2025-11-07 02:08:05.889 [error] TypeError: Cannot read properties of undefined (reading 'subscriptions')
+    at Object.X [as deactivate] (/root/.vscode-server/extensions/ms-python.vscode-python-envs-1.10.0-linux-x64/dist/extension.js:2:668401)
+    at SZ.eb (file:///root/.vscode-server/bin/7d842fb85a0275a4a8e4d7e040d2625abbf7f084/out/vs/workbench/api/node/extensionHostProcess.js:118:11797)
+    at file:///root/.vscode-server/bin/7d842fb85a0275a4a8e4d7e040d2625abbf7f084/out/vs/workbench/api/node/extensionHostProcess.js:118:9947
+    at Array.map (<anonymous>)
+    at SZ.$ (file:///root/.vscode-server/bin/7d842fb85a0275a4a8e4d7e040d2625abbf7f084/out/vs/workbench/api/node/extensionHostProcess.js:118:9935)
+    at SZ.terminate (file:///root/.vscode-server/bin/7d842fb85a0275a4a8e4d7e040d2625abbf7f084/out/vs/workbench/api/node/extensionHostProcess.js:118:10178)
+    at H3.terminate (file:///root/.vscode-server/bin/7d842fb85a0275a4a8e4d7e040d2625abbf7f084/out/vs/workbench/api/node/extensionHostProcess.js:120:914)
+    at Ss (file:///root/.vscode-server/bin/7d842fb85a0275a4a8e4d7e040d2625abbf7f084/out/vs/workbench/api/node/extensionHostProcess.js:393:10409)
+    at od.value (file:///root/.vscode-server/bin/7d842fb85a0275a4a8e4d7e040d2625abbf7f084/out/vs/workbench/api/node/extensionHostProcess.js:393:8561)
+    at $.C (file:///root/.vscode-server/bin/7d842fb85a0275a4a8e4d7e040d2625abbf7f084/out/vs/workbench/api/node/extensionHostProcess.js:27:2373)
+    at $.fire (file:///root/.vscode-server/bin/7d842fb85a0275a4a8e4d7e040d2625abbf7f084/out/vs/workbench/api/node/extensionHostProcess.js:27:2591)
+    at Ao.fire (file:///root/.vscode-server/bin/7d842fb85a0275a4a8e4d7e040d2625abbf7f084/out/vs/workbench/api/node/extensionHostProcess.js:29:9458)
+    at ov.A (file:///root/.vscode-server/bin/7d842fb85a0275a4a8e4d7e040d2625abbf7f084/out/vs/workbench/api/node/extensionHostProcess.js:29:12574)
+    at od.value (file:///root/.vscode-server/bin/7d842fb85a0275a4a8e4d7e040d2625abbf7f084/out/vs/workbench/api/node/extensionHostProcess.js:29:11975)
+    at $.C (file:///root/.vscode-server/bin/7d842fb85a0275a4a8e4d7e040d2625abbf7f084/out/vs/workbench/api/node/extensionHostProcess.js:27:2373)
+    at $.fire (file:///root/.vscode-server/bin/7d842fb85a0275a4a8e4d7e040d2625abbf7f084/out/vs/workbench/api/node/extensionHostProcess.js:27:2591)
+    at A5.acceptChunk (file:///root/.vscode-server/bin/7d842fb85a0275a4a8e4d7e040d2625abbf7f084/out/vs/workbench/api/node/extensionHostProcess.js:29:7941)
+    at od.value (file:///root/.vscode-server/bin/7d842fb85a0275a4a8e4d7e040d2625abbf7f084/out/vs/workbench/api/node/extensionHostProcess.js:29:7227)
+    at $.C (file:///root/.vscode-server/bin/7d842fb85a0275a4a8e4d7e040d2625abbf7f084/out/vs/workbench/api/node/extensionHostProcess.js:27:2373)
+    at $.fire (file:///root/.vscode-server/bin/7d842fb85a0275a4a8e4d7e040d2625abbf7f084/out/vs/workbench/api/node/extensionHostProcess.js:27:2591)
+    at yN.z (file:///root/.vscode-server/bin/7d842fb85a0275a4a8e4d7e040d2625abbf7f084/out/vs/workbench/api/node/extensionHostProcess.js:29:21744)
+    at yN.acceptFrame (file:///root/.vscode-server/bin/7d842fb85a0275a4a8e4d7e040d2625abbf7f084/out/vs/workbench/api/node/extensionHostProcess.js:29:21550)
+    at bN.n (file:///root/.vscode-server/bin/7d842fb85a0275a4a8e4d7e040d2625abbf7f084/out/vs/workbench/api/node/extensionHostProcess.js:29:20078)
+    at file:///root/.vscode-server/bin/7d842fb85a0275a4a8e4d7e040d2625abbf7f084/out/vs/workbench/api/node/extensionHostProcess.js:29:17310
+    at Socket.t (file:///root/.vscode-server/bin/7d842fb85a0275a4a8e4d7e040d2625abbf7f084/out/vs/workbench/api/node/extensionHostProcess.js:29:15251)
+    at Socket.emit (node:events:519:28)
+    at addChunk (node:internal/streams/readable:561:12)
+    at readableAddChunkPushByteMode (node:internal/streams/readable:512:3)
+    at Socket.Readable.push (node:internal/streams/readable:392:5)
+    at TCP.onStreamRead (node:internal/stream_base_commons:189:23)
+2025-11-07 02:08:06.700 [error] Error: Channel has been closed
+    at n (file:///root/.vscode-server/bin/7d842fb85a0275a4a8e4d7e040d2625abbf7f084/out/vs/workbench/api/node/extensionHostProcess.js:121:2816)
+    at Object.error (file:///root/.vscode-server/bin/7d842fb85a0275a4a8e4d7e040d2625abbf7f084/out/vs/workbench/api/node/extensionHostProcess.js:121:3250)
+    at T.error (/root/.vscode-server/bin/7d842fb85a0275a4a8e4d7e040d2625abbf7f084/extensions/json-language-features/client/dist/node/jsonClientMain.js:2:44894)
+    at /root/.vscode-server/bin/7d842fb85a0275a4a8e4d7e040d2625abbf7f084/extensions/json-language-features/client/dist/node/jsonClientMain.js:2:53365
+    at runNextTicks (node:internal/process/task_queues:65:5)
+    at processTimers (node:internal/timers:520:9)
+    at Object.dispose (/root/.vscode-server/bin/7d842fb85a0275a4a8e4d7e040d2625abbf7f084/extensions/json-language-features/client/dist/node/jsonClientMain.js:2:320447)
+    at Object.dispose (/root/.vscode-server/bin/7d842fb85a0275a4a8e4d7e040d2625abbf7f084/extensions/json-language-features/client/dist/node/jsonClientMain.js:2:311212)
+    at Object.t.deactivate (/root/.vscode-server/bin/7d842fb85a0275a4a8e4d7e040d2625abbf7f084/extensions/json-language-features/client/dist/node/jsonClientMain.js:2:478133)
+    at async Promise.all (index 8)
+    at SZ.$ (file:///root/.vscode-server/bin/7d842fb85a0275a4a8e4d7e040d2625abbf7f084/out/vs/workbench/api/node/extensionHostProcess.js:118:9961)
+2025-11-07 02:08:06.703 [info] Extension host with pid 554 exiting with code 0

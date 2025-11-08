@@ -1,0 +1,14 @@
+{
+  "environment": {
+    "executable": "/root/Documents/dataPipeline/venv/bin/python",
+    "prefix": "/root/Documents/dataPipeline/venv",
+    "version": "3.10.12.final.0",
+    "is64Bit": true,
+    "symlinks": [
+      "/root/Documents/dataPipeline/venv/bin/python",
+      "/root/Documents/dataPipeline/venv/bin/python3",
+      "/root/Documents/dataPipeline/venv/bin/python3.10"
+    ]
+  },
+  "symlinks": []
+}

@@ -1,0 +1,45 @@
+2025-11-02 21:17:52.968 [info] (Client) Pylance client (2025.9.1) started with python extension (2025.16.0)
+2025-11-02 21:17:56.647 [info] (898) Server root directory: file:///root/.vscode-server/extensions/ms-python.vscode-pylance-2025.9.1/dist
+2025-11-02 21:17:56.650 [info] (898) Pylance language server 2025.9.1 (pyright version 1.1.406, commit 20aa20a1) starting
+2025-11-02 21:17:56.667 [info] (898) Starting service instance "dataPipeline" for workspace "/root/Documents/dataPipeline"
+2025-11-02 21:17:57.038 [info] Failed to get active python environment for MCP server. MCP server disabled.
+2025-11-02 21:17:57.296 [info] (898) Setting environmentName for service "dataPipeline": "C:\Users\jose roberto\AppData\Local\Microsoft\WindowsApps\python3.11.exe"
+2025-11-02 21:17:57.298 [info] (898) No include entries specified; assuming /root/Documents/dataPipeline
+2025-11-02 21:17:57.300 [info] (898) Auto-excluding **/node_modules
+2025-11-02 21:17:57.301 [info] (898) Auto-excluding **/__pycache__
+2025-11-02 21:17:57.302 [info] (898) Auto-excluding **/.*
+2025-11-02 21:17:57.378 [info] (898) Assuming Python version 3.10.12.final.0
+2025-11-02 21:17:57.756 [info] (898) Auto-excluding /root/Documents/dataPipeline/venv
+2025-11-02 21:17:57.756 [info] (898) No source files found.
+2025-11-02 21:17:57.835 [info] (898) Settings have not changed. Skipping update.
+2025-11-02 21:17:57.854 [info] (898) Starting service instance "dataPipeline" for workspace "/root/Documents/dataPipeline"
+2025-11-02 21:17:57.956 [info] (898) Setting environmentName for service "dataPipeline": "C:\Users\jose roberto\AppData\Local\Microsoft\WindowsApps\python3.11.exe"
+2025-11-02 21:17:57.957 [info] (898) Setting pythonPath for service "dataPipeline": "/root/Documents/dataPipeline/venv/bin/python"
+2025-11-02 21:17:57.957 [info] (898) No include entries specified; assuming /root/Documents/dataPipeline
+2025-11-02 21:17:57.959 [info] (898) Auto-excluding **/node_modules
+2025-11-02 21:17:57.959 [info] (898) Auto-excluding **/__pycache__
+2025-11-02 21:17:57.960 [info] (898) Auto-excluding **/.*
+2025-11-02 21:17:58.030 [info] (898) Assuming Python version 3.10.12.final.0
+2025-11-02 21:17:59.479 [info] (898) Auto-excluding /root/Documents/dataPipeline/venv
+2025-11-02 21:17:59.482 [info] (898) No source files found.
+2025-11-02 21:17:59.838 [info] (898) BG: Priority queue background worker(2) root directory: file:///root/.vscode-server/extensions/ms-python.vscode-pylance-2025.9.1/dist
+2025-11-02 21:17:59.840 [info] (898) BG: Priority queue background worker(2) started
+2025-11-02 21:18:00.708 [info] (898) BG: Priority queue background worker(4) root directory: file:///root/.vscode-server/extensions/ms-python.vscode-pylance-2025.9.1/dist
+2025-11-02 21:18:00.716 [info] (898) BG: Priority queue background worker(4) started
+2025-11-02 21:18:00.811 [info] (898) BG: Indexer background runner(5) root directory: file:///root/.vscode-server/extensions/ms-python.vscode-pylance-2025.9.1/dist (index)
+2025-11-02 21:18:00.811 [info] (898) BG: Indexing(5) started
+2025-11-02 21:18:03.555 [info] (898) BG: [IDX(5)] Long operation: scan packages file:///root/Documents/dataPipeline (2042ms)
+2025-11-02 21:18:03.556 [info] (898) BG: scanned(5) 46 files over 1 exec env
+2025-11-02 21:18:03.938 [info] (898) BG: indexed(5) 46 files over 1 exec env
+2025-11-02 21:18:04.033 [info] (898) BG: Indexing finished(5).
+2025-11-02 22:35:42.901 [info] (898) Starting service instance "<default>" for workspace ""
+2025-11-02 22:35:43.199 [info] (898) Setting environmentName for service "<default>": "C:\Users\jose roberto\AppData\Local\Microsoft\WindowsApps\python3.11.exe"
+2025-11-02 22:35:43.199 [info] (898) No include entries specified; assuming /<default workspace root>
+2025-11-02 22:35:43.200 [info] (898) Auto-excluding **/node_modules
+2025-11-02 22:35:43.200 [info] (898) Auto-excluding **/__pycache__
+2025-11-02 22:35:43.200 [info] (898) Auto-excluding **/.*
+2025-11-02 22:35:43.271 [info] (898) Assuming Python version 3.10.12.final.0
+2025-11-02 22:35:43.662 [error] (898) File or directory "/<default workspace root>" does not exist.
+2025-11-02 22:35:43.663 [info] (898) No source files found.
+2025-11-02 22:35:46.102 [info] (898) BG: Priority queue background worker(7) root directory: file:///root/.vscode-server/extensions/ms-python.vscode-pylance-2025.9.1/dist
+2025-11-02 22:35:46.107 [info] (898) BG: Priority queue background worker(7) started

@@ -1,0 +1,37 @@
+2025-11-08 06:40:45.089 [info] [GitExtensionServiceImpl] Initializing Git extension service.
+2025-11-08 06:40:45.089 [info] [GitExtensionServiceImpl] Successfully activated the vscode.git extension.
+2025-11-08 06:40:45.089 [info] [GitExtensionServiceImpl] Enablement state of the vscode.git extension: true.
+2025-11-08 06:40:45.089 [info] [GitExtensionServiceImpl] Successfully registered Git commit message provider.
+2025-11-08 06:40:47.719 [info] Logged in as robertoHenriq
+2025-11-08 06:40:47.738 [info] Can't use the Electron fetcher in this environment.
+2025-11-08 06:40:47.738 [info] Using the Node fetch fetcher.
+2025-11-08 06:40:49.830 [info] FetcherService: node-fetch failed with status: 403 
+2025-11-08 06:40:54.263 [info] FetcherService: node-http failed with status: 403 Forbidden
+2025-11-08 06:40:54.267 [warning] Invalid copilot token: missing token: 403 
+2025-11-08 06:40:54.275 [error] Error: No access to GitHub Copilot found. You are currently logged in as robertoHenriq.
+    at r9._authShowWarnings (/root/.vscode-server/extensions/github.copilot-chat-0.32.4/dist/extension.js:935:17814)
+    at processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at r9.getCopilotToken (/root/.vscode-server/extensions/github.copilot-chat-0.32.4/dist/extension.js:935:16221)
+    at nH.getCopilotToken (/root/.vscode-server/extensions/github.copilot-chat-0.32.4/dist/extension.js:472:26116)
+    at uC.waitForChatEnabled (/root/.vscode-server/extensions/github.copilot-chat-0.32.4/dist/extension.js:472:28557)
+    at uC.run (/root/.vscode-server/extensions/github.copilot-chat-0.32.4/dist/extension.js:472:28441)
+    at d5.askToUpgradeAuthPermissions (/root/.vscode-server/extensions/github.copilot-chat-0.32.4/dist/extension.js:472:28099): Failed to get copilot token
+2025-11-08 06:40:54.275 [error] GitHub Copilot could not connect to server. Extension activation failed: "No access to GitHub Copilot found. You are currently logged in as robertoHenriq."
+2025-11-08 06:40:54.275 [warning] [LanguageModelAccess] LanguageModel/Embeddings are not available without auth token
+2025-11-08 06:40:54.275 [error] Error: No access to GitHub Copilot found. You are currently logged in as robertoHenriq.
+    at r9._authShowWarnings (/root/.vscode-server/extensions/github.copilot-chat-0.32.4/dist/extension.js:935:17814)
+    at processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at r9.getCopilotToken (/root/.vscode-server/extensions/github.copilot-chat-0.32.4/dist/extension.js:935:16221)
+    at nH.getCopilotToken (/root/.vscode-server/extensions/github.copilot-chat-0.32.4/dist/extension.js:472:26116)
+    at NU._getToken (/root/.vscode-server/extensions/github.copilot-chat-0.32.4/dist/extension.js:614:5057)
+    at n (/root/.vscode-server/extensions/github.copilot-chat-0.32.4/dist/extension.js:614:4521)
+    at NU._registerEmbeddings (/root/.vscode-server/extensions/github.copilot-chat-0.32.4/dist/extension.js:614:5018)
+    at async Promise.all (index 1)
+    at async Promise.allSettled (index 1)
+    at yR.waitForActivationBlockers (/root/.vscode-server/extensions/github.copilot-chat-0.32.4/dist/extension.js:449:1233)
+    at /root/.vscode-server/extensions/github.copilot-chat-0.32.4/dist/extension.js:449:1992
+    at Tot (/root/.vscode-server/extensions/github.copilot-chat-0.32.4/dist/extension.js:449:1860)
+    at Gb.n (file:///root/.vscode-server/bin/7d842fb85a0275a4a8e4d7e040d2625abbf7f084/out/vs/workbench/api/node/extensionHostProcess.js:114:13382)
+    at Gb.m (file:///root/.vscode-server/bin/7d842fb85a0275a4a8e4d7e040d2625abbf7f084/out/vs/workbench/api/node/extensionHostProcess.js:114:13345)
+    at Gb.l (file:///root/.vscode-server/bin/7d842fb85a0275a4a8e4d7e040d2625abbf7f084/out/vs/workbench/api/node/extensionHostProcess.js:114:12801)
+2025-11-08 06:40:54.275 [info] activationBlocker from 'languageModelAccess' took for 6073ms

@@ -1,0 +1,64 @@
+2025-11-07 16:16:26.657 [info] [GitExtensionServiceImpl] Initializing Git extension service.
+2025-11-07 16:16:26.658 [info] [GitExtensionServiceImpl] Successfully activated the vscode.git extension.
+2025-11-07 16:16:26.658 [info] [GitExtensionServiceImpl] Enablement state of the vscode.git extension: true.
+2025-11-07 16:16:26.658 [info] [GitExtensionServiceImpl] Successfully registered Git commit message provider.
+2025-11-07 16:16:30.821 [info] Logged in as robertoc4t
+2025-11-07 16:16:30.839 [info] Can't use the Electron fetcher in this environment.
+2025-11-07 16:16:30.839 [info] Using the Node fetch fetcher.
+2025-11-07 16:16:33.321 [info] Got Copilot token for robertoc4t
+2025-11-07 16:16:33.321 [info] Copilot Chat: 0.32.4, VS Code: 1.105.1
+2025-11-07 16:16:33.357 [info] activationBlocker from 'languageModelAccess' took for 3030ms
+2025-11-07 16:16:34.149 [info] copilot token chat_enabled: true, sku: free_limited_copilot
+2025-11-07 16:16:34.149 [info] GitHub.vscode-pull-request-github extension is not yet activated.
+2025-11-07 16:16:34.214 [info] Registering default platform agent...
+2025-11-07 16:16:34.218 [info] activationBlocker from 'conversationFeature' took for 3907ms
+2025-11-07 16:16:35.925 [info] Fetched model metadata in 5546ms b4034236-78e7-4f0b-94fb-8d1fb9472d1d
+2025-11-07 16:16:35.934 [info] Latest entry: ccreq:latest.copilotmd
+2025-11-07 16:16:35.937 [info] ccreq:86d04348.copilotmd | markdown
+2025-11-07 16:16:36.329 [info] Fetched auto model in 382ms.
+2025-11-07 16:16:36.468 [info] BYOK: Copilot Chat known models list fetched successfully.
+2025-11-07 16:16:41.976 [info] Refetch model metadata: Succeeded in 524ms 1eb907f5-0b35-437c-952f-a9704ec44f65 (49ED:1F2D85:1832684:1BDA183:690E4599) using node-http with status 200.
+2025-11-07 16:16:42.561 [info] Refetch model metadata: Succeeded in 585ms e0dc9bc3-9c78-4f01-866d-08f2bb85be97 (49A0:1E6982:17BFA21:1B6A177:690E459A) using node-fetch with status 200.
+2025-11-08 00:23:21.727 [info] Logged in as robertoc4t
+2025-11-08 00:23:23.460 [info] Got Copilot token for robertoc4t
+2025-11-08 00:23:23.461 [info] Copilot Chat: 0.32.4, VS Code: 1.105.1
+2025-11-08 00:23:24.264 [info] copilot token chat_enabled: true, sku: free_limited_copilot
+2025-11-08 00:23:24.312 [info] Fetched model metadata in 2885ms c7ced2b4-93f3-4aa3-9291-62198af7cfca
+2025-11-08 00:23:24.337 [info] ccreq:f24cbceb.copilotmd | markdown
+2025-11-08 00:23:24.600 [info] Fetched auto model in 223ms.
+2025-11-08 00:23:28.126 [info] message 0 returned. finish reason: [stop]
+2025-11-08 00:23:28.127 [info] request done: requestId: [49bc1166-4ab2-402e-8a46-af9a7cdc3b1c] model deployment ID: []
+2025-11-08 00:23:28.147 [info] ccreq:a1d273ff.copilotmd | success | gpt-4.1 | 1144ms | [debugCommandIdentifier]
+2025-11-08 00:32:43.402 [info] Logged in as robertoHenriq
+2025-11-08 00:32:44.343 [warning] Invalid remote agent response: unauthorized: not licensed to use Copilot
+ (SyntaxError: Unexpected token 'u', "unauthoriz"... is not valid JSON)
+2025-11-08 00:32:44.724 [info] FetcherService: node-fetch failed with status: 403 
+2025-11-08 00:32:45.677 [info] FetcherService: node-http failed with status: 403 Forbidden
+2025-11-08 00:32:45.692 [warning] Invalid copilot token: missing token: 403 
+2025-11-08 00:32:46.576 [info] Logged in as robertoHenriq
+2025-11-08 00:32:46.918 [info] FetcherService: node-fetch failed with status: 403 
+2025-11-08 00:32:47.481 [info] FetcherService: node-http failed with status: 403 Forbidden
+2025-11-08 00:32:47.489 [warning] Invalid copilot token: missing token: 403 
+2025-11-08 00:32:47.758 [info] copilot token chat_enabled: undefined, sku: 
+2025-11-08 00:32:48.074 [info] Logged in as robertoHenriq
+2025-11-08 00:32:48.394 [info] FetcherService: node-fetch failed with status: 403 
+2025-11-08 00:32:54.323 [info] FetcherService: node-http failed with status: 403 Forbidden
+2025-11-08 00:32:54.327 [warning] Invalid copilot token: missing token: 403 
+2025-11-08 00:32:54.342 [error] GitHub Copilot could not connect to server. Extension activation failed: "No access to GitHub Copilot found. You are currently logged in as robertoHenriq."
+2025-11-08 00:32:54.342 [warning] [LanguageModelAccess] LanguageModel/Embeddings are not available without auth token
+2025-11-08 00:32:54.342 [error] Error: No access to GitHub Copilot found. You are currently logged in as robertoHenriq.
+    at r9._authShowWarnings (/root/.vscode-server/extensions/github.copilot-chat-0.32.4/dist/extension.js:935:17814)
+    at processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at r9.getCopilotToken (/root/.vscode-server/extensions/github.copilot-chat-0.32.4/dist/extension.js:935:16221)
+    at nH.getCopilotToken (/root/.vscode-server/extensions/github.copilot-chat-0.32.4/dist/extension.js:472:26116)
+    at NU._getToken (/root/.vscode-server/extensions/github.copilot-chat-0.32.4/dist/extension.js:614:5057)
+    at n (/root/.vscode-server/extensions/github.copilot-chat-0.32.4/dist/extension.js:614:4521)
+2025-11-08 00:32:54.344 [warning] [LanguageModelAccess] LanguageModel/Embeddings are not available without auth token
+2025-11-08 00:32:54.344 [error] Error: No access to GitHub Copilot found. You are currently logged in as robertoHenriq.
+    at r9._authShowWarnings (/root/.vscode-server/extensions/github.copilot-chat-0.32.4/dist/extension.js:935:17814)
+    at processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at r9.getCopilotToken (/root/.vscode-server/extensions/github.copilot-chat-0.32.4/dist/extension.js:935:16221)
+    at nH.getCopilotToken (/root/.vscode-server/extensions/github.copilot-chat-0.32.4/dist/extension.js:472:26116)
+    at NU._getToken (/root/.vscode-server/extensions/github.copilot-chat-0.32.4/dist/extension.js:614:5057)
+    at NU._provideLanguageModelChatInfo (/root/.vscode-server/extensions/github.copilot-chat-0.32.4/dist/extension.js:614:1430)
+    at vy.$provideLanguageModelChatInfo (file:///root/.vscode-server/bin/7d842fb85a0275a4a8e4d7e040d2625abbf7f084/out/vs/workbench/api/node/extensionHostProcess.js:116:29352)

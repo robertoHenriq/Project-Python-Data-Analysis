@@ -1,0 +1,20 @@
+2025-11-07 10:15:16.634 [info] 
+
+
+
+
+2025-11-07 10:15:16.710 [info] Extension host agent started.
+2025-11-07 10:15:17.935 [info] [127.0.0.1][26fca4fe][ManagementConnection] New connection established.
+2025-11-07 10:15:17.974 [info] [127.0.0.1][e0df7fd1][ExtensionHostConnection] New connection established.
+2025-11-07 10:15:18.420 [info] [127.0.0.1][e0df7fd1][ExtensionHostConnection] <583> Launched Extension Host Process.
+2025-11-07 12:54:58.571 [error] Error: read ECONNRESET
+    at TCP.onStreamRead (node:internal/stream_base_commons:216:20)
+2025-11-07 12:54:58.779 [info] [127.0.0.1][26fca4fe][ManagementConnection] The client has disconnected, will wait for reconnection 3h before disposing...
+2025-11-07 12:55:05.593 [info] [127.0.0.1][26fca4fe][ManagementConnection] Another client has connected, will shorten the wait for reconnection 5m before disposing...
+2025-11-07 12:55:05.663 [info] [127.0.0.1][e0df7fd1][ExtensionHostConnection] The client has reconnected.
+2025-11-07 12:55:06.964 [info] [127.0.0.1][26fca4fe][ManagementConnection] The client has reconnected.
+2025-11-07 12:56:23.027 [info] [127.0.0.1][26fca4fe][ManagementConnection] The client has reconnected.
+2025-11-07 12:56:23.472 [info] [127.0.0.1][e0df7fd1][ExtensionHostConnection] The client has reconnected.
+2025-11-07 13:04:26.550 [info] [127.0.0.1][26fca4fe][ManagementConnection] The client has reconnected.
+2025-11-07 13:07:03.342 [info] [127.0.0.1][e0df7fd1][ExtensionHostConnection] The client has reconnected.
+2025-11-07 14:30:07.408 [info] [127.0.0.1][26fca4fe][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
