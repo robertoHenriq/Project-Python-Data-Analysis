@@ -1,0 +1,7 @@
+.vscode-server/
+__pycache__/
+*.pyc
+.env
+.cache/
+*.log
+
